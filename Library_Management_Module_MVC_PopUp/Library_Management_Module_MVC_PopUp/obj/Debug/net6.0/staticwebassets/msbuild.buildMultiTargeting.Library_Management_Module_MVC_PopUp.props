@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Library_Management_Module_MVC_PopUp.props" />
+</Project>

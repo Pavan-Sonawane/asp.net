@@ -1,0 +1,74 @@
+﻿@model IEnumerable<Author.Models.Authors>
+<h1 class="text-center"><i class="bi bi-heart"></i> About Authors</h1>
+
+
+<table class="table">
+    <thead class="thead-light">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.BookTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PageCount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AuthorName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.BookType)
+
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.BookQuantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Ratings)
+            </th>
+            <th>
+
+                <a onclick="showInPopup('@Url.Action("AddOrEdit","Authors",null,Context.Request.Scheme)','New Book')" class="btn btn-success text-white">Add New Book</a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BookTitle)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PageCount)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AuthorName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem=>item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem=>item.BookType)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem=>item.BookQuantity)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem=>item.Ratings)
+                </td>
+                <td>
+                    <div>
+                        <a onclick="showInPopup('@Url.Action("AddOrEdit","Authors",new {id=item.BookID},Context.Request.Scheme)','Update Book')" class="btn btn-info text-white"><i class="fas fa-pencil-alt"></i> Update</a>
+                        <form asp-action="Delete" asp-route-id="@item.BookID" onsubmit="return jQueryAjaxDelete(this)" class="d-inline">
+                            <button type="submit" class="btn btn-danger">
+                                <i class="bi bi-trash"></i> Delete
+                            </button>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

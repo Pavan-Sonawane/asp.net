@@ -1,0 +1,21 @@
+﻿@model List<DateTime>
+
+<h2>Borrowed Dates By User</h2>
+
+<table class="table" >
+    <thead>
+        <tr>
+            <th>Borrow Date</th>
+           
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var date in Model)
+        {
+            <tr>
+                <td>@date.ToShortDateString()</td>
+               
+            </tr>
+        }
+    </tbody>
+</table>

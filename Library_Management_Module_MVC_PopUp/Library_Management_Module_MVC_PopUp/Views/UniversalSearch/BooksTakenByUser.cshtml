@@ -1,0 +1,30 @@
+﻿@model List<Library_Management_Module_MVC_PopUp.Models.Book>
+
+<h2>Books Taken By User</h2>
+
+@if (Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Book ID</th>
+                <th>Title</th>
+                <th>ISBN</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var book in Model)
+            {
+                <tr>
+                    <td>@book.BookID</td>
+                    <td>@book.Title</td>
+                    <td>@book.ISBN</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No books found for this user.</p>
+}

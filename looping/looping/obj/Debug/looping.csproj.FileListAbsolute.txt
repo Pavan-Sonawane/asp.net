@@ -1,0 +1,8 @@
+C:\Users\TGSUser183\source\repos\looping\looping\obj\Debug\looping.csproj.AssemblyReference.cache
+C:\Users\TGSUser183\source\repos\looping\looping\obj\Debug\looping.csproj.SuggestedBindingRedirects.cache
+C:\Users\TGSUser183\source\repos\looping\looping\obj\Debug\looping.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser183\source\repos\looping\looping\bin\Debug\looping.exe.config
+C:\Users\TGSUser183\source\repos\looping\looping\bin\Debug\looping.exe
+C:\Users\TGSUser183\source\repos\looping\looping\bin\Debug\looping.pdb
+C:\Users\TGSUser183\source\repos\looping\looping\obj\Debug\looping.exe
+C:\Users\TGSUser183\source\repos\looping\looping\obj\Debug\looping.pdb

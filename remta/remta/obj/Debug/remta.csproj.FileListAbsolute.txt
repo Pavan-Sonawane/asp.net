@@ -1,0 +1,8 @@
+C:\Users\TGSUser183\source\repos\remta\remta\obj\Debug\remta.csproj.AssemblyReference.cache
+C:\Users\TGSUser183\source\repos\remta\remta\obj\Debug\remta.csproj.SuggestedBindingRedirects.cache
+C:\Users\TGSUser183\source\repos\remta\remta\obj\Debug\remta.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser183\source\repos\remta\remta\bin\Debug\remta.exe.config
+C:\Users\TGSUser183\source\repos\remta\remta\bin\Debug\remta.exe
+C:\Users\TGSUser183\source\repos\remta\remta\bin\Debug\remta.pdb
+C:\Users\TGSUser183\source\repos\remta\remta\obj\Debug\remta.exe
+C:\Users\TGSUser183\source\repos\remta\remta\obj\Debug\remta.pdb

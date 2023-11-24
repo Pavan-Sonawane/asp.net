@@ -1,0 +1,14 @@
+﻿@model IEnumerable<Library_Management_Module_MVC_PopUp.Models.Book>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div id="view-all">
+    @await Html.PartialAsync("_ViewAll", Model)
+</div>
+
+@section Scripts{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,95 @@
+﻿@*@model IEnumerable<Library_Management_Module_MVC_PopUp.Models.Book>
+<h1 class="text-center"><i class=" text-success"></i> Course List</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model=>model.BookID)</th>
+            <th>@Html.DisplayNameFor(model=>model.Title)</th>
+            <th>@Html.DisplayNameFor(model=>model.ISBN)</th>
+           
+
+            <th>
+                <a onclick="showInPopup('@Url.Action("AddOrEdit","Book",null,Context.Request.Scheme)','New Book')" class="btn btn-success text-white"><i class="fas fa-random"></i>New Book</a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(model=>item.BookID)</td>
+                <td>@Html.DisplayFor(model=>item.Title)</td>
+                <td>@Html.DisplayFor(model=>item.ISBN)</td>
+                
+                <td>
+                    <a onclick="showInPopup('@Url.Action("AddOrEdit","Book",new {id=item.BookID},Context.Request.Scheme)','Update Book')" class="btn btn-info text-white"><i class="fas fa-pencil-alt"></i> Edit</a>
+                    <form asp-action="Delete" asp-route-id="@item.BookID" onsubmit="return jQueryAjaxDelete(this)" class="d-inline">
+                        <input type="submit" value="Delete" class="btn btn-danger">
+                    </form>
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>*@
+
+
+
+@model IEnumerable<Library_Management_Module_MVC_PopUp.Models.Book>
+
+<h1 class="text-center"><i class="fas fa-book text-success"></i> Book List</h1>
+
+<div class="container mt-4">
+    <table class="table table-striped text-center">
+        <thead class="thead-dark">
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.BookID)</th>
+                <th>@Html.DisplayNameFor(model => model.Title)</th>
+                <th>@Html.DisplayNameFor(model => model.ISBN)</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(model => item.BookID)</td>
+                    <td>@Html.DisplayFor(model => item.Title)</td>
+                    <td>@Html.DisplayFor(model => item.ISBN)</td>
+                    <td>
+                        <div class="btn-group ">
+                            <a href="#" class="btn btn-info" onclick="showInPopup('@Url.Action("AddOrEdit","Book",new {id=item.BookID},Context.Request.Scheme)','Update Book')">
+                                <i class="fas fa-pencil-alt"></i> Edit
+                            </a>
+                            <form asp-action="Delete" asp-route-id="@item.BookID" onsubmit="return jQueryAjaxDelete(this)" class="d-inline">
+                                <button type="submit" class="btn btn-danger">
+                                    <i class="fas fa-trash-alt"></i> Delete
+                                </button>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <a onclick="showInPopup('@Url.Action("AddOrEdit","Book",null,Context.Request.Scheme)','New Book')" class="btn btn-success">
+        <i class="fas fa-random"></i> New Book
+    </a>
+</div>
+
+<style>
+    /* Hover effect for table rows */
+    table.table tbody tr:hover {
+        background-color: #f5f5f5;
+    }
+
+    /* Custom color for table header */
+    table.table thead th {
+        background-color: #343a40;
+        color: #ffffff;
+    }
+</style>
+
+

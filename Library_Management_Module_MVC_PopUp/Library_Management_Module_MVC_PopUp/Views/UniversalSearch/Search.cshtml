@@ -1,0 +1,36 @@
+﻿@model List<Library_Management_Module_MVC_PopUp.Models.Borrowed_Book>
+
+<h2>Search Results</h2>
+
+@if (Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Book ID</th>
+                <th>Title</th>
+                <th>ISBN</th>
+                <th>Borrower</th>
+                <th>Borrow Date</th>
+                <th>Return Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var borrowedBook in Model)
+            {
+                <tr>
+                    <td>@borrowedBook.Book.BookID</td>
+                    <td>@borrowedBook.Book.Title</td>
+                    <td>@borrowedBook.Book.ISBN</td>
+                    <td>@borrowedBook.User.User_Name</td>
+                    <td>@borrowedBook.BorrowDate.ToString("dd/MM/yyyy")</td>
+                    <td>@borrowedBook.ReturnDate.ToString("dd/MM/yyyy")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No results found for the given search term.</p>
+}

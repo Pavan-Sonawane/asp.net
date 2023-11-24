@@ -1,0 +1,36 @@
+﻿@model IEnumerable<MVC_Course_Enrollment_Student.Models.Student>
+<h1 class="text-center"><i class=" text-success"></i> Employee List</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model=>model.Student_Id)</th>
+            <th>@Html.DisplayNameFor(model=>model.First_Name)</th>
+            <th>@Html.DisplayNameFor(model=>model.Last_Name)</th>
+            <th>@Html.DisplayNameFor(model=>model.DOB)</th>
+            <th>@Html.DisplayNameFor(model=>model.Address)</th>
+            <th>
+                <a onclick="showInPopup('@Url.Action("AddOrEdit","Student",null,Context.Request.Scheme)','New Student')" class="btn btn-success text-white"><i class="fas fa-random"></i>New Student</a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(model=>item.Student_Id)</td>
+                <td>@Html.DisplayFor(model=>item.First_Name)</td>
+                <td>@Html.DisplayFor(model=>item.Last_Name)</td>
+                <td>@Html.DisplayFor(model=>item.DOB)</td>
+                <td>@Html.DisplayFor(model=>item.Address)</td>
+                <td>
+                    <a onclick="showInPopup('@Url.Action("AddOrEdit","Student",new {id=item.Student_Id},Context.Request.Scheme)','Update Student')" class="btn btn-info text-white"><i class="fas fa-pencil-alt"></i> Edit</a>
+                    <form asp-action="Delete" asp-route-id="@item.Student_Id" onsubmit="return jQueryAjaxDelete(this)" class="d-inline">
+                        <input type="submit" value="Delete" class="btn btn-danger">
+                    </form>
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>

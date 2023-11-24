@@ -1,0 +1,8 @@
+C:\Users\TGSUser183\source\repos\2int1c\2int1c\obj\Debug\2int1c.csproj.AssemblyReference.cache
+C:\Users\TGSUser183\source\repos\2int1c\2int1c\obj\Debug\2int1c.csproj.SuggestedBindingRedirects.cache
+C:\Users\TGSUser183\source\repos\2int1c\2int1c\obj\Debug\2int1c.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser183\source\repos\2int1c\2int1c\bin\Debug\2int1c.exe.config
+C:\Users\TGSUser183\source\repos\2int1c\2int1c\bin\Debug\2int1c.exe
+C:\Users\TGSUser183\source\repos\2int1c\2int1c\bin\Debug\2int1c.pdb
+C:\Users\TGSUser183\source\repos\2int1c\2int1c\obj\Debug\2int1c.exe
+C:\Users\TGSUser183\source\repos\2int1c\2int1c\obj\Debug\2int1c.pdb

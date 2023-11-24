@@ -1,0 +1,8 @@
+C:\Users\TGSUser183\source\repos\indexer\indexer\bin\Debug\indexer.exe.config
+C:\Users\TGSUser183\source\repos\indexer\indexer\bin\Debug\indexer.exe
+C:\Users\TGSUser183\source\repos\indexer\indexer\bin\Debug\indexer.pdb
+C:\Users\TGSUser183\source\repos\indexer\indexer\obj\Debug\indexer.csproj.AssemblyReference.cache
+C:\Users\TGSUser183\source\repos\indexer\indexer\obj\Debug\indexer.csproj.SuggestedBindingRedirects.cache
+C:\Users\TGSUser183\source\repos\indexer\indexer\obj\Debug\indexer.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser183\source\repos\indexer\indexer\obj\Debug\indexer.exe
+C:\Users\TGSUser183\source\repos\indexer\indexer\obj\Debug\indexer.pdb

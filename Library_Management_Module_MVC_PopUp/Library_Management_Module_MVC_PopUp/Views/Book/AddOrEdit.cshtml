@@ -1,0 +1,99 @@
+﻿@*@model Library_Management_Module_MVC_PopUp.Models.Book
+
+@{
+    Layout = null;
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="AddOrEdit" asp-route-id="@Model.BookID" onsubmit="return jQueryAjaxPost(this);">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="BookID" />
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Title" class="control-label"></label>
+                        <input asp-for="Title" class="form-control" />
+                        <span asp-validation-for="Title" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="ISBN" class="control-label"></label>
+                        <input asp-for="ISBN" class="form-control" />
+                        <span asp-validation-for="ISBN" class="text-danger"></span>
+                    </div>
+                </div>
+
+                
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-6 offset-md-3">
+                    <input type="submit" value="Submit" class="btn btn-primary btn-block" />
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+*@
+@model Library_Management_Module_MVC_PopUp.Models.Book
+
+@{
+    Layout = null;
+}
+
+<div class="row justify-content-center mt-5">
+    <div class="col-md-6">
+        <div class="card">
+         
+            <div class="card-body">
+                <form asp-action="AddOrEdit" asp-route-id="@Model.BookID" onsubmit="return jQueryAjaxPost(this);">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="BookID" />
+
+                    <div class="form-group">
+                        <label asp-for="Title" class="control-label">Book Title</label>
+                        <input asp-for="Title" class="form-control" placeholder="Enter book title" />
+                        <span asp-validation-for="Title" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="ISBN" class="control-label">ISBN</label>
+                        <input asp-for="ISBN" class="form-control" placeholder="Enter ISBN" />
+                        <span asp-validation-for="ISBN" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group text-center">
+                        <button type="submit" class="btn btn-success btn-lg">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .card {
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        height:200px;
+        width: 200px;
+    }
+
+    .card-header {
+        border-radius: 15px 15px 0 0;
+    }
+
+    .form-control {
+        border-radius: 10px;
+    }
+
+    button[type="submit"] {
+        border-radius: 10px;
+    }
+</style>
+

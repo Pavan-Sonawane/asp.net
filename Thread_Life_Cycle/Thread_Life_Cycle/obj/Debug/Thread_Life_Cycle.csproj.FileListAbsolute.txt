@@ -1,0 +1,8 @@
+C:\Users\TGSUser183\source\repos\Thread_Life_Cycle\Thread_Life_Cycle\bin\Debug\Thread_Life_Cycle.exe.config
+C:\Users\TGSUser183\source\repos\Thread_Life_Cycle\Thread_Life_Cycle\bin\Debug\Thread_Life_Cycle.exe
+C:\Users\TGSUser183\source\repos\Thread_Life_Cycle\Thread_Life_Cycle\bin\Debug\Thread_Life_Cycle.pdb
+C:\Users\TGSUser183\source\repos\Thread_Life_Cycle\Thread_Life_Cycle\obj\Debug\Thread_Life_Cycle.csproj.AssemblyReference.cache
+C:\Users\TGSUser183\source\repos\Thread_Life_Cycle\Thread_Life_Cycle\obj\Debug\Thread_Life_Cycle.csproj.SuggestedBindingRedirects.cache
+C:\Users\TGSUser183\source\repos\Thread_Life_Cycle\Thread_Life_Cycle\obj\Debug\Thread_Life_Cycle.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser183\source\repos\Thread_Life_Cycle\Thread_Life_Cycle\obj\Debug\Thread_Life_Cycle.exe
+C:\Users\TGSUser183\source\repos\Thread_Life_Cycle\Thread_Life_Cycle\obj\Debug\Thread_Life_Cycle.pdb

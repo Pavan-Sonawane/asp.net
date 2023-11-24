@@ -1,0 +1,8 @@
+C:\Users\TGSUser183\source\repos\polymorph-runtime\polymorph-runtime\bin\Debug\polymorph-runtime.exe.config
+C:\Users\TGSUser183\source\repos\polymorph-runtime\polymorph-runtime\bin\Debug\polymorph-runtime.exe
+C:\Users\TGSUser183\source\repos\polymorph-runtime\polymorph-runtime\bin\Debug\polymorph-runtime.pdb
+C:\Users\TGSUser183\source\repos\polymorph-runtime\polymorph-runtime\obj\Debug\polymorph-runtime.csproj.AssemblyReference.cache
+C:\Users\TGSUser183\source\repos\polymorph-runtime\polymorph-runtime\obj\Debug\polymorph-runtime.csproj.SuggestedBindingRedirects.cache
+C:\Users\TGSUser183\source\repos\polymorph-runtime\polymorph-runtime\obj\Debug\polymorph-runtime.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser183\source\repos\polymorph-runtime\polymorph-runtime\obj\Debug\polymorph-runtime.exe
+C:\Users\TGSUser183\source\repos\polymorph-runtime\polymorph-runtime\obj\Debug\polymorph-runtime.pdb

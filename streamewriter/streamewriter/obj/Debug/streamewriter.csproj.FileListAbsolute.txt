@@ -1,0 +1,8 @@
+C:\Users\TGSUser183\source\repos\streamewriter\streamewriter\bin\Debug\streamewriter.exe.config
+C:\Users\TGSUser183\source\repos\streamewriter\streamewriter\bin\Debug\streamewriter.exe
+C:\Users\TGSUser183\source\repos\streamewriter\streamewriter\bin\Debug\streamewriter.pdb
+C:\Users\TGSUser183\source\repos\streamewriter\streamewriter\obj\Debug\streamewriter.csproj.AssemblyReference.cache
+C:\Users\TGSUser183\source\repos\streamewriter\streamewriter\obj\Debug\streamewriter.csproj.SuggestedBindingRedirects.cache
+C:\Users\TGSUser183\source\repos\streamewriter\streamewriter\obj\Debug\streamewriter.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser183\source\repos\streamewriter\streamewriter\obj\Debug\streamewriter.exe
+C:\Users\TGSUser183\source\repos\streamewriter\streamewriter\obj\Debug\streamewriter.pdb

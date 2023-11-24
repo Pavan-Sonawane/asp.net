@@ -1,0 +1,8 @@
+C:\Users\TGSUser183\source\repos\obsolete\obsolete\bin\Debug\obsolete.exe.config
+C:\Users\TGSUser183\source\repos\obsolete\obsolete\bin\Debug\obsolete.exe
+C:\Users\TGSUser183\source\repos\obsolete\obsolete\bin\Debug\obsolete.pdb
+C:\Users\TGSUser183\source\repos\obsolete\obsolete\obj\Debug\obsolete.csproj.AssemblyReference.cache
+C:\Users\TGSUser183\source\repos\obsolete\obsolete\obj\Debug\obsolete.csproj.SuggestedBindingRedirects.cache
+C:\Users\TGSUser183\source\repos\obsolete\obsolete\obj\Debug\obsolete.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser183\source\repos\obsolete\obsolete\obj\Debug\obsolete.exe
+C:\Users\TGSUser183\source\repos\obsolete\obsolete\obj\Debug\obsolete.pdb

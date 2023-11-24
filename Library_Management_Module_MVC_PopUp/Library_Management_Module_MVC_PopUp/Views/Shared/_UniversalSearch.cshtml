@@ -1,0 +1,10 @@
+﻿<form asp-controller="UniversalSearch" asp-action="UniversalSearch" method="get" class="d-flex">
+    <input type="text" name="searchTerm" class="form-control me-2" placeholder="Search" aria-label="Search">
+    <select name="searchType" class="form-select me-2">
+        <option>Select Search Parameter</option>
+        <option value="ByTitle">Use Title For Borrower Details</option>
+        <option value="ByUser">Use UserID For Book Details</option>
+        <option value="ByUserId">Use UserID For Dates</option>
+    </select>
+    <button class="btn btn-success" type="submit">Search</button>
+</form>

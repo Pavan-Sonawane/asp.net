@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Test_One_to_Many_Popup.Models.student>
+
+<h1 class="text-center">List Of Students</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model=>model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Class)
+            </th>
+           
+            <th>
+                @Html.DisplayNameFor(model=>model.Course.Coursename)
+            </th>
+            <th>
+                <a onclick="showinpopup('@Url.Action("AddOrEdit","students",null,Context.Request.Scheme)','New Student')" class="btn btn-success text-white">New Student</a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(model=>item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(model=>item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(model=>item.Class)
+                </td>
+                <td>
+                    @Html.DisplayFor(model=>item.Course.Coursename)
+                </td>
+                <td>
+                    <a onclick="showinpopup('@Url.Action("AddOrEdit","students",new {id=item.Id},Context.Request.Scheme)','Update Student')" class="btn btn-info text-white">Edit</a>
+                    <form asp-action="Delete" asp-route-id="@item.Id" onsubmit="return  jqueryajaxdelete(this)" class="d-inline">
+                        <input type="submit" value="Delete" class="btn btn-danger">
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

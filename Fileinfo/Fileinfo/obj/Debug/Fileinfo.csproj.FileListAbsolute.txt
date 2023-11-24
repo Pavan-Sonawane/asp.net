@@ -1,0 +1,8 @@
+C:\Users\TGSUser183\source\repos\Fileinfo\Fileinfo\bin\Debug\Fileinfo.exe.config
+C:\Users\TGSUser183\source\repos\Fileinfo\Fileinfo\bin\Debug\Fileinfo.exe
+C:\Users\TGSUser183\source\repos\Fileinfo\Fileinfo\bin\Debug\Fileinfo.pdb
+C:\Users\TGSUser183\source\repos\Fileinfo\Fileinfo\obj\Debug\Fileinfo.csproj.AssemblyReference.cache
+C:\Users\TGSUser183\source\repos\Fileinfo\Fileinfo\obj\Debug\Fileinfo.csproj.SuggestedBindingRedirects.cache
+C:\Users\TGSUser183\source\repos\Fileinfo\Fileinfo\obj\Debug\Fileinfo.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser183\source\repos\Fileinfo\Fileinfo\obj\Debug\Fileinfo.exe
+C:\Users\TGSUser183\source\repos\Fileinfo\Fileinfo\obj\Debug\Fileinfo.pdb

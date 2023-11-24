@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "polymorph-method hiding", "polymorph-method hiding\polymorph-method hiding.csproj", "{8B76CA3A-39FA-4B26-AFDF-A1D84A5CD674}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B76CA3A-39FA-4B26-AFDF-A1D84A5CD674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B76CA3A-39FA-4B26-AFDF-A1D84A5CD674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B76CA3A-39FA-4B26-AFDF-A1D84A5CD674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B76CA3A-39FA-4B26-AFDF-A1D84A5CD674}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {604C9866-D0B2-4C94-9FBE-85A8A612DD22}
+	EndGlobalSection
+EndGlobal

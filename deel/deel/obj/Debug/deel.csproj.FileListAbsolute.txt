@@ -1,0 +1,8 @@
+C:\Users\TGSUser183\source\repos\deel\deel\bin\Debug\deel.exe.config
+C:\Users\TGSUser183\source\repos\deel\deel\bin\Debug\deel.exe
+C:\Users\TGSUser183\source\repos\deel\deel\bin\Debug\deel.pdb
+C:\Users\TGSUser183\source\repos\deel\deel\obj\Debug\deel.csproj.AssemblyReference.cache
+C:\Users\TGSUser183\source\repos\deel\deel\obj\Debug\deel.csproj.SuggestedBindingRedirects.cache
+C:\Users\TGSUser183\source\repos\deel\deel\obj\Debug\deel.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser183\source\repos\deel\deel\obj\Debug\deel.exe
+C:\Users\TGSUser183\source\repos\deel\deel\obj\Debug\deel.pdb

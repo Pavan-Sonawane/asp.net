@@ -1,0 +1,8 @@
+C:\Users\TGSUser183\source\repos\association\association\obj\Debug\association.csproj.AssemblyReference.cache
+C:\Users\TGSUser183\source\repos\association\association\obj\Debug\association.csproj.SuggestedBindingRedirects.cache
+C:\Users\TGSUser183\source\repos\association\association\obj\Debug\association.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser183\source\repos\association\association\bin\Debug\association.exe.config
+C:\Users\TGSUser183\source\repos\association\association\bin\Debug\association.exe
+C:\Users\TGSUser183\source\repos\association\association\bin\Debug\association.pdb
+C:\Users\TGSUser183\source\repos\association\association\obj\Debug\association.exe
+C:\Users\TGSUser183\source\repos\association\association\obj\Debug\association.pdb

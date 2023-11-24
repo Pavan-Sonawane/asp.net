@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\EMP_State_Cas_Auth.props" />
+</Project>

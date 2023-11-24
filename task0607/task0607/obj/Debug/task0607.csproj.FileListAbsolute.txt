@@ -1,0 +1,3 @@
+C:\Users\TGSUser183\source\repos\task0607\task0607\obj\Debug\task0607.csproj.AssemblyReference.cache
+C:\Users\TGSUser183\source\repos\task0607\task0607\obj\Debug\task0607.csproj.SuggestedBindingRedirects.cache
+C:\Users\TGSUser183\source\repos\task0607\task0607\obj\Debug\task0607.csproj.CoreCompileInputs.cache

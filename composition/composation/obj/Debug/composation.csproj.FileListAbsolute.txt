@@ -1,0 +1,8 @@
+C:\Users\TGSUser183\source\repos\composation\composation\bin\Debug\composation.exe.config
+C:\Users\TGSUser183\source\repos\composation\composation\bin\Debug\composation.exe
+C:\Users\TGSUser183\source\repos\composation\composation\bin\Debug\composation.pdb
+C:\Users\TGSUser183\source\repos\composation\composation\obj\Debug\composation.csproj.AssemblyReference.cache
+C:\Users\TGSUser183\source\repos\composation\composation\obj\Debug\composation.csproj.SuggestedBindingRedirects.cache
+C:\Users\TGSUser183\source\repos\composation\composation\obj\Debug\composation.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser183\source\repos\composation\composation\obj\Debug\composation.exe
+C:\Users\TGSUser183\source\repos\composation\composation\obj\Debug\composation.pdb

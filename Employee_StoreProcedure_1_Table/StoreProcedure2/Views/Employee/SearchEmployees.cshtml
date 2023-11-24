@@ -1,0 +1,46 @@
+﻿@model List<StoreProcedure2.Models.Employee>
+
+@{
+    ViewData["Title"] = "Search Employees";
+}
+
+<h1>Search Employees</h1>
+
+<form asp-action="SearchEmployees" method="get">
+    <div class="form-group">
+        <label for="employeeName">Employee Name</label>
+        <input type="text" class="form-control" id="employeeName" name="employeeName">
+    </div>
+   
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+
+@if (Model != null && Model.Any())
+{
+    <h2>Search Results</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Employee Name</th>
+                <th>Job Role</th>
+               
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var employee in Model)
+            {
+                <tr>
+                    <td>@employee.EmployeeName</td>
+                    <td>@employee.Job_Role</td>
+                   
+                    <td>@employee.Salary</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else if (Model != null && !Model.Any())
+{
+    <p>No results found.</p>
+}

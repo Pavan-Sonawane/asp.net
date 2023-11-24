@@ -1,0 +1,35 @@
+﻿@model IEnumerable<MVC_Course_Enrollment_Student.Models.Course>
+<h1 class="text-center"><i class=" text-success"></i> Course List</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model=>model.Course_Id)</th>
+            <th>@Html.DisplayNameFor(model=>model.Course_Name)</th>
+            <th>@Html.DisplayNameFor(model=>model.Instructor)</th>
+            <th>@Html.DisplayNameFor(model=>model.Credit)</th>
+
+            <th>
+                <a onclick="showInPopup('@Url.Action("AddOrEdit","Course",null,Context.Request.Scheme)','New Course')" class="btn btn-success text-white"><i class="fas fa-random"></i>New Course</a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(model=>item.Course_Id)</td>
+                <td>@Html.DisplayFor(model=>item.Course_Name)</td>
+                <td>@Html.DisplayFor(model=>item.Instructor)</td>
+                <td>@Html.DisplayFor(model=>item.Credit)</td>
+                <td>
+                    <a onclick="showInPopup('@Url.Action("AddOrEdit","Course",new {id=item.Course_Id},Context.Request.Scheme)','Update Course')" class="btn btn-info text-white"><i class="fas fa-pencil-alt"></i> Edit</a>
+                    <form asp-action="Delete" asp-route-id="@item.Course_Id" onsubmit="return jQueryAjaxDelete(this)" class="d-inline">
+                        <input type="submit" value="Delete" class="btn btn-danger">
+                    </form>
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>

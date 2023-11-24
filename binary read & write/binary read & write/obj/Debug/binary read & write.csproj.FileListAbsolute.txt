@@ -1,0 +1,8 @@
+C:\Users\TGSUser183\source\repos\binary read & write\binary read & write\bin\Debug\binary read & write.exe.config
+C:\Users\TGSUser183\source\repos\binary read & write\binary read & write\bin\Debug\binary read & write.exe
+C:\Users\TGSUser183\source\repos\binary read & write\binary read & write\bin\Debug\binary read & write.pdb
+C:\Users\TGSUser183\source\repos\binary read & write\binary read & write\obj\Debug\binary read & write.csproj.AssemblyReference.cache
+C:\Users\TGSUser183\source\repos\binary read & write\binary read & write\obj\Debug\binary read & write.csproj.SuggestedBindingRedirects.cache
+C:\Users\TGSUser183\source\repos\binary read & write\binary read & write\obj\Debug\binary read & write.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser183\source\repos\binary read & write\binary read & write\obj\Debug\binary read & write.exe
+C:\Users\TGSUser183\source\repos\binary read & write\binary read & write\obj\Debug\binary read & write.pdb

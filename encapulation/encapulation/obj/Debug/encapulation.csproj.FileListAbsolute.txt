@@ -1,0 +1,8 @@
+C:\Users\TGSUser183\source\repos\encapulation\encapulation\bin\Debug\encapulation.exe.config
+C:\Users\TGSUser183\source\repos\encapulation\encapulation\bin\Debug\encapulation.exe
+C:\Users\TGSUser183\source\repos\encapulation\encapulation\bin\Debug\encapulation.pdb
+C:\Users\TGSUser183\source\repos\encapulation\encapulation\obj\Debug\encapulation.csproj.AssemblyReference.cache
+C:\Users\TGSUser183\source\repos\encapulation\encapulation\obj\Debug\encapulation.csproj.SuggestedBindingRedirects.cache
+C:\Users\TGSUser183\source\repos\encapulation\encapulation\obj\Debug\encapulation.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser183\source\repos\encapulation\encapulation\obj\Debug\encapulation.exe
+C:\Users\TGSUser183\source\repos\encapulation\encapulation\obj\Debug\encapulation.pdb

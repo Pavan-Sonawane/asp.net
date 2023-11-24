@@ -1,0 +1,8 @@
+C:\Users\TGSUser183\source\repos\leazy_thread\leazy_thread\bin\Debug\leazy_thread.exe.config
+C:\Users\TGSUser183\source\repos\leazy_thread\leazy_thread\bin\Debug\leazy_thread.exe
+C:\Users\TGSUser183\source\repos\leazy_thread\leazy_thread\bin\Debug\leazy_thread.pdb
+C:\Users\TGSUser183\source\repos\leazy_thread\leazy_thread\obj\Debug\leazy_thread.csproj.AssemblyReference.cache
+C:\Users\TGSUser183\source\repos\leazy_thread\leazy_thread\obj\Debug\leazy_thread.csproj.SuggestedBindingRedirects.cache
+C:\Users\TGSUser183\source\repos\leazy_thread\leazy_thread\obj\Debug\leazy_thread.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser183\source\repos\leazy_thread\leazy_thread\obj\Debug\leazy_thread.exe
+C:\Users\TGSUser183\source\repos\leazy_thread\leazy_thread\obj\Debug\leazy_thread.pdb

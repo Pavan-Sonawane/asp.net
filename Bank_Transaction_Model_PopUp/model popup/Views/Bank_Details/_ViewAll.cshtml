@@ -1,0 +1,60 @@
+﻿@model IEnumerable<model_popup.Models.Bank_Details>
+<h1 Class="text-center"><i class="fas fa-comments-dollar text-success"></i>Transaction History</></h1>
+<table class="table">
+    <thead class="thead-light">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model=>model.Account_number)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.IFSC_Code)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Name_of_customer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Mobile_Number)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Zip_code)
+            </th>
+            <th>
+                <a onclick="showInPopup('@Url.Action("AddorEdit","Bank_Details",null,Context.Request.Scheme)','New Transaction')" class="btn btn-success text-white"><i class="fas fa-random"></i> New Transaction</a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(model=> item.Account_number)
+                </td>
+                <td>
+                    @Html.DisplayFor(model=>item.IFSC_Code)
+                </td>
+                <td>
+                    @Html.DisplayFor(model=>item.Name_of_customer)
+                </td>
+                <td>
+                    @Html.DisplayFor(model=>item.Mobile_Number)
+                </td> 
+                <td>
+                    @Html.DisplayFor(model=>item.Zip_code)
+                </td>
+
+
+                <td>
+                    <div>
+                        <a onclick="showInPopup('@Url.Action("AddorEdit","Bank_Details",new{id=item.Transaction_Id },Context.Request.Scheme)','Update Transaction')" class="btn btn-info text-white"><i class="fas fa-pencil-alt"></i>Edit</a>
+                        <form asp-action="Delete" asp-route-id="@item.Transaction_Id" class="d-inline">
+                            <input type="submit" value="Delete" class=" btn btn-danger" />
+                        </form>
+                    </div>
+
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>

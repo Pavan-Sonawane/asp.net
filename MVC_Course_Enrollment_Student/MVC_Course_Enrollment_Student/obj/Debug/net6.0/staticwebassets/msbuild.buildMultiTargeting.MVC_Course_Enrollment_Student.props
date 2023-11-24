@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MVC_Course_Enrollment_Student.props" />
+</Project>

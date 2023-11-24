@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\model popup.props" />
+</Project>

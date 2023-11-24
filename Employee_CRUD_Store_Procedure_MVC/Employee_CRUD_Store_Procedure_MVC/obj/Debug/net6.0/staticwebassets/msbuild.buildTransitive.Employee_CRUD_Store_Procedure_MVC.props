@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Employee_CRUD_Store_Procedure_MVC.props" />
+</Project>

@@ -1,0 +1,8 @@
+C:\Users\TGSUser183\source\repos\Function1\Function1\bin\Debug\Function1.exe.config
+C:\Users\TGSUser183\source\repos\Function1\Function1\bin\Debug\Function1.exe
+C:\Users\TGSUser183\source\repos\Function1\Function1\bin\Debug\Function1.pdb
+C:\Users\TGSUser183\source\repos\Function1\Function1\obj\Debug\Function1.csproj.AssemblyReference.cache
+C:\Users\TGSUser183\source\repos\Function1\Function1\obj\Debug\Function1.csproj.SuggestedBindingRedirects.cache
+C:\Users\TGSUser183\source\repos\Function1\Function1\obj\Debug\Function1.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser183\source\repos\Function1\Function1\obj\Debug\Function1.exe
+C:\Users\TGSUser183\source\repos\Function1\Function1\obj\Debug\Function1.pdb

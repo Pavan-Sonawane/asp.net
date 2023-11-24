@@ -1,0 +1,8 @@
+C:\Users\TGSUser183\source\repos\arraylist0707\arraylist0707\bin\Debug\arraylist0707.exe.config
+C:\Users\TGSUser183\source\repos\arraylist0707\arraylist0707\bin\Debug\arraylist0707.exe
+C:\Users\TGSUser183\source\repos\arraylist0707\arraylist0707\bin\Debug\arraylist0707.pdb
+C:\Users\TGSUser183\source\repos\arraylist0707\arraylist0707\obj\Debug\arraylist0707.csproj.AssemblyReference.cache
+C:\Users\TGSUser183\source\repos\arraylist0707\arraylist0707\obj\Debug\arraylist0707.csproj.SuggestedBindingRedirects.cache
+C:\Users\TGSUser183\source\repos\arraylist0707\arraylist0707\obj\Debug\arraylist0707.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser183\source\repos\arraylist0707\arraylist0707\obj\Debug\arraylist0707.exe
+C:\Users\TGSUser183\source\repos\arraylist0707\arraylist0707\obj\Debug\arraylist0707.pdb

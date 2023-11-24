@@ -1,0 +1,8 @@
+C:\Users\TGSUser183\source\repos\conditional\conditional\bin\Debug\conditional.exe.config
+C:\Users\TGSUser183\source\repos\conditional\conditional\bin\Debug\conditional.exe
+C:\Users\TGSUser183\source\repos\conditional\conditional\bin\Debug\conditional.pdb
+C:\Users\TGSUser183\source\repos\conditional\conditional\obj\Debug\conditional.csproj.AssemblyReference.cache
+C:\Users\TGSUser183\source\repos\conditional\conditional\obj\Debug\conditional.csproj.SuggestedBindingRedirects.cache
+C:\Users\TGSUser183\source\repos\conditional\conditional\obj\Debug\conditional.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser183\source\repos\conditional\conditional\obj\Debug\conditional.exe
+C:\Users\TGSUser183\source\repos\conditional\conditional\obj\Debug\conditional.pdb

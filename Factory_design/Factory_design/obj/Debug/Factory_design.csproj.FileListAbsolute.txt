@@ -1,0 +1,8 @@
+C:\Users\TGSUser183\source\repos\Factory_design\Factory_design\obj\Debug\Factory_design.csproj.AssemblyReference.cache
+C:\Users\TGSUser183\source\repos\Factory_design\Factory_design\obj\Debug\Factory_design.csproj.SuggestedBindingRedirects.cache
+C:\Users\TGSUser183\source\repos\Factory_design\Factory_design\obj\Debug\Factory_design.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser183\source\repos\Factory_design\Factory_design\bin\Debug\Factory_design.exe.config
+C:\Users\TGSUser183\source\repos\Factory_design\Factory_design\bin\Debug\Factory_design.exe
+C:\Users\TGSUser183\source\repos\Factory_design\Factory_design\bin\Debug\Factory_design.pdb
+C:\Users\TGSUser183\source\repos\Factory_design\Factory_design\obj\Debug\Factory_design.exe
+C:\Users\TGSUser183\source\repos\Factory_design\Factory_design\obj\Debug\Factory_design.pdb

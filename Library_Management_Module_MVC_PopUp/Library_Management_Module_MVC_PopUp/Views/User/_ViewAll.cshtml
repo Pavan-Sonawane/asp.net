@@ -1,0 +1,79 @@
+﻿@*@model IEnumerable<Library_Management_Module_MVC_PopUp.Models.User>
+<h1 class="text-center"><i class=" text-success"></i> Employee List</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model=>model.UserID)</th>
+            <th>@Html.DisplayNameFor(model=>model.User_Name)</th>
+         
+            <th>
+                <a onclick="showInPopup('@Url.Action("AddOrEdit","User",null,Context.Request.Scheme)','New User')" class="btn btn-success text-white"><i class="fas fa-random"></i>New User</a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(model=>item.UserID)</td>
+                <td>@Html.DisplayFor(model=>item.User_Name)</td>
+                 <td>
+                    <a onclick="showInPopup('@Url.Action("AddOrEdit","User",new {id=item.UserID},Context.Request.Scheme)','Update User')" class="btn btn-info text-white"><i class="fas fa-pencil-alt"></i> Edit</a>
+                    <form asp-action="Delete" asp-route-id="@item.UserID" onsubmit="return jQueryAjaxDelete(this)" class="d-inline">
+                        <input type="submit" value="Delete" class="btn btn-danger">
+                    </form>
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>*@
+ 
+@model IEnumerable<Library_Management_Module_MVC_PopUp.Models.User>
+
+<h1 class="text-center"><i class="fas fa-user text-success"></i> User List</h1>
+
+<div class="container mt-4">
+    <table class="table thead-dark table-striped table-bordered table-hover fade-in text-center">
+        <thead class="thead-dark">
+            <tr ">
+                <th>@Html.DisplayNameFor(model => model.UserID)</th>
+                <th>@Html.DisplayNameFor(model => model.User_Name)</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(model => item.UserID)</td>
+                    <td>@Html.DisplayFor(model => item.User_Name)</td>
+                    <td class="text-center">
+
+                        <div class="btn-group">
+                            <a href="#" class="btn btn-info" onclick="showInPopup('@Url.Action("AddOrEdit","User",new {id=item.UserID},Context.Request.Scheme)','Update User')">
+                                <i class="fas fa-pencil-alt"></i> Edit
+                            </a>
+                            <form asp-action="Delete" asp-route-id="@item.UserID" onsubmit="return jQueryAjaxDelete(this)" class="d-inline">
+                                <button type="submit" class="btn btn-danger">
+                                    <i class="fas fa-trash-alt"></i> Delete
+                                </button>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <a onclick="showInPopup('@Url.Action("AddOrEdit","User",null,Context.Request.Scheme)','New User')" class="btn btn-success">
+        <i class="fas fa-random"></i> New User
+    </a>
+</div>
+
+
+   
+
+   
+  

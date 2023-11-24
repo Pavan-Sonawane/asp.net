@@ -1,0 +1,30 @@
+﻿@model departmentrel.Models.Employee
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h4>Department List</h4>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Employee_Id)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Employee_Id)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Employee_Name)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Employee_Name)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Employee_Addr)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Employee_Addr)</dd>
+
+        
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Department_Id)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Department_Id)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Department.Department_Name)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Department.Department_Name)</dd>
+    </dl>
+    <a asp-action="Add">Back To List</a>
+</div>

@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Test_One_to_Many_Popup.Models.Course>
+<table class="table">
+<thead class="thead-light">
+    <tr>
+
+        <th>@Html.DisplayNameFor(model=>model.Coursename)</th>
+        <th>
+            <a onclick="showinpopup('@Url.Action("AddOrEdit","Courses",null,Context.Request.Scheme)','New Course')" class="btn btn-success text-white"><i class="fas fa-random"></i>New Course</a>
+
+        </th>
+    </tr>
+</thead>
+<tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>@Html.DisplayFor(model=>item.Coursename)</td>
+            <td>
+                <a onclick="showinpopup('@Url.Action("AddOrEdit","Courses",new {id=item.CourseID},Context.Request.Scheme)','Update Course')" class="btn btn-info text-white"><i class="fas fa-pencil-alt"></i> Update Course</a>
+                <form asp-action="Delete" asp-route-id="@item.CourseID" onsubmit="return jqueryajaxdelete(this)" class="d-inline">
+                    <input type="submit" value="Delete" class="btn btn-danger" />
+                </form>
+            </td>
+
+        </tr>
+    }
+</tbody>
+</table>

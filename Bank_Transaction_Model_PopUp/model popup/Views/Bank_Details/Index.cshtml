@@ -1,0 +1,16 @@
+﻿@model IEnumerable<model_popup.Models.Bank_Details>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+<div id="view-all">
+    @await Html.PartialAsync("_ViewAll", Model)
+</div>
+
+

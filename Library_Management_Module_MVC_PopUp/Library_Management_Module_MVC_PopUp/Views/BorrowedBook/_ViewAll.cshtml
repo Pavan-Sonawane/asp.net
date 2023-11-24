@@ -1,0 +1,97 @@
+﻿@*@model IEnumerable<Library_Management_Module_MVC_PopUp.Models.Borrowed_Book >
+<h1 class="text-center"><i class=" text-success"></i> Borrowed Book List</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model=>model.BorrowedID)</th>
+            <th>@Html.DisplayNameFor(model=>model.Book.Title)</th>
+            <th>@Html.DisplayNameFor(model=>model.User.User_Name)</th>
+            <th>@Html.DisplayNameFor(model=>model.BorrowDate)</th>
+            <th>@Html.DisplayNameFor(model=>model.ReturnDate)</th>
+
+            <th>
+                <a onclick="showInPopup('@Url.Action("AddOrEdit","BorrowedBook",null,Context.Request.Scheme)','New Borrower')" class="btn btn-success text-white"><i class="fas fa-random"></i>New Borrower</a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(model=>item.BorrowedID)</td>
+                <td>@Html.DisplayFor(model=>item.Book.Title)</td>
+                <td>@Html.DisplayFor(model=>item.User.User_Name)</td>
+                <td>@Html.DisplayFor(model=>item.BorrowDate)</td>
+                <td>@Html.DisplayFor(model=>item.ReturnDate)</td>
+
+                <td>
+                    <a onclick="showInPopup('@Url.Action("AddOrEdit","BorrowedBook",new {id=item.BorrowedID},Context.Request.Scheme)','Update BorrowedBook')" class="btn btn-info text-white"><i class="fas fa-pencil-alt"></i> Edit</a>
+                    <form asp-action="Delete" asp-route-id="@item.BorrowedID" onsubmit="return jQueryAjaxDelete(this)" class="d-inline">
+                        <input type="submit" value="Delete" class="btn btn-danger">
+                    </form>
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>*@
+
+
+@model IEnumerable<Library_Management_Module_MVC_PopUp.Models.Borrowed_Book>
+<h1 class="text-center"><i class=" text-success"></i> Borrowed Book List</h1>
+
+<style>
+    /* Custom CSS for table */
+    .custom-table {
+        background-color: #f0f0f0; /* Set your desired color here */
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+        .custom-table th, .custom-table td {
+            border: 1px solid #ccc;
+            padding: 8px;
+        }
+
+        .custom-table th {
+            background-color: #333;
+            color: #fff;
+        }
+</style>
+
+<div class="container mt-4">
+    <table class="custom-table table-striped text-center">
+        <thead class="thead-dark">
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.BorrowedID)</th>
+                <th>@Html.DisplayNameFor(model => model.Book.Title)</th>
+                <th>@Html.DisplayNameFor(model => model.User.User_Name)</th>
+                <th>@Html.DisplayNameFor(model => model.BorrowDate)</th>
+                <th>@Html.DisplayNameFor(model => model.ReturnDate)</th>
+                <th>Actions</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(model => item.BorrowedID)</td>
+                    <td>@Html.DisplayFor(model => item.Book.Title)</td>
+                    <td>@Html.DisplayFor(model => item.User.User_Name)</td>
+                    <td>@Html.DisplayFor(model => item.BorrowDate)</td>
+                    <td>@Html.DisplayFor(model => item.ReturnDate)</td>
+                    <td>
+                        <a onclick="showInPopup('@Url.Action("AddOrEdit","BorrowedBook",new {id=item.BorrowedID},Context.Request.Scheme)','Update BorrowedBook')" class="btn btn-info text-white"><i class="fas fa-pencil-alt"></i> Edit</a>
+                        <form asp-action="Delete" asp-route-id="@item.BorrowedID" onsubmit="return jQueryAjaxDelete(this)" class="d-inline">
+                            <input type="submit" value="Delete" class="btn btn-danger">
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+        <a onclick="showInPopup('@Url.Action("AddOrEdit","BorrowedBook",null,Context.Request.Scheme)','New Borrower')" class="btn btn-success text-white"><i class="fas fa-random"></i>New Borrower</a>
+
+    </table>
+</div>

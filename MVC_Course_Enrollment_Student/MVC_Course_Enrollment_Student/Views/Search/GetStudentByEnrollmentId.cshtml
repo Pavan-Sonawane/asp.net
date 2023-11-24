@@ -1,0 +1,33 @@
+﻿@model Student
+
+@if (Model != null)
+{
+    <h2>Student Information</h2>
+    <table >
+        <tr>
+            <th>Student ID</th>
+            <td>@Model.Student_Id</td>
+        </tr>
+        <tr>
+            <th>First Name</th>
+            <td>@Model.First_Name</td>
+        </tr>
+        <tr>
+            <th>Last Name</th>
+            <td>@Model.Last_Name</td>
+        </tr>
+        <tr>
+            <th>Date of Birth</th>
+            <td>@Model.DOB.ToShortDateString()</td>
+        </tr>
+        <tr>
+            <th>Address</th>
+            <td>@Model.Address</td>
+        </tr>
+    </table>
+
+}
+else
+{
+    <p>No student found for the provided EnrollmentId.</p>
+}

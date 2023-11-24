@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeStamp and Concurrency Check", "TimeStamp and Concurrency Check\TimeStamp and Concurrency Check.csproj", "{DEA7F2F5-7BFD-49D9-8C58-D13A10D12039}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEA7F2F5-7BFD-49D9-8C58-D13A10D12039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA7F2F5-7BFD-49D9-8C58-D13A10D12039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA7F2F5-7BFD-49D9-8C58-D13A10D12039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA7F2F5-7BFD-49D9-8C58-D13A10D12039}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {629B68F1-C2E5-435D-B51F-520E772A0A38}
+	EndGlobalSection
+EndGlobal

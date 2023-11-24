@@ -1,0 +1,8 @@
+C:\Users\TGSUser183\source\repos\texxtwriter\texxtwriter\bin\Debug\texxtwriter.exe.config
+C:\Users\TGSUser183\source\repos\texxtwriter\texxtwriter\bin\Debug\texxtwriter.exe
+C:\Users\TGSUser183\source\repos\texxtwriter\texxtwriter\bin\Debug\texxtwriter.pdb
+C:\Users\TGSUser183\source\repos\texxtwriter\texxtwriter\obj\Debug\texxtwriter.csproj.AssemblyReference.cache
+C:\Users\TGSUser183\source\repos\texxtwriter\texxtwriter\obj\Debug\texxtwriter.csproj.SuggestedBindingRedirects.cache
+C:\Users\TGSUser183\source\repos\texxtwriter\texxtwriter\obj\Debug\texxtwriter.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser183\source\repos\texxtwriter\texxtwriter\obj\Debug\texxtwriter.exe
+C:\Users\TGSUser183\source\repos\texxtwriter\texxtwriter\obj\Debug\texxtwriter.pdb

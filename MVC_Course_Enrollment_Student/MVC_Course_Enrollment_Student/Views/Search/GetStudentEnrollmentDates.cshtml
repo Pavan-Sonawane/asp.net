@@ -1,0 +1,18 @@
+﻿@model List<DateTime>
+
+@if (Model != null && Model.Any())
+{
+    <h2>Enrollment Dates</h2>
+    <ul>
+        @foreach (var date in Model)
+        {
+            <li>@date.ToShortDateString()</li>
+          
+        }
+    </ul>
+}
+else
+{
+    <p>No enrollment dates found for the provided StudentId.</p>
+}
+                                                                                                                                                        

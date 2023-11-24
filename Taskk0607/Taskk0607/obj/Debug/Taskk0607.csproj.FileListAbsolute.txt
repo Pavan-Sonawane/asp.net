@@ -1,0 +1,8 @@
+C:\Users\TGSUser183\source\repos\Taskk0607\Taskk0607\bin\Debug\Taskk0607.exe.config
+C:\Users\TGSUser183\source\repos\Taskk0607\Taskk0607\bin\Debug\Taskk0607.exe
+C:\Users\TGSUser183\source\repos\Taskk0607\Taskk0607\bin\Debug\Taskk0607.pdb
+C:\Users\TGSUser183\source\repos\Taskk0607\Taskk0607\obj\Debug\Taskk0607.csproj.AssemblyReference.cache
+C:\Users\TGSUser183\source\repos\Taskk0607\Taskk0607\obj\Debug\Taskk0607.csproj.SuggestedBindingRedirects.cache
+C:\Users\TGSUser183\source\repos\Taskk0607\Taskk0607\obj\Debug\Taskk0607.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser183\source\repos\Taskk0607\Taskk0607\obj\Debug\Taskk0607.exe
+C:\Users\TGSUser183\source\repos\Taskk0607\Taskk0607\obj\Debug\Taskk0607.pdb

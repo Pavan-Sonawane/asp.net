@@ -1,0 +1,13 @@
+﻿@model IEnumerable<Test_One_to_Many_Popup.Models.student>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<div id="view-all">
+    @await Html.PartialAsync("_ViewAll",Model)
+</div>
+@section Scripts{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

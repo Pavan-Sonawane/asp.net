@@ -1,0 +1,15 @@
+C:\Users\TGSUser183\All Internship Data\asp.net\chat\chat\bin\Debug\net6.0\chat.exe
+C:\Users\TGSUser183\All Internship Data\asp.net\chat\chat\bin\Debug\net6.0\chat.deps.json
+C:\Users\TGSUser183\All Internship Data\asp.net\chat\chat\bin\Debug\net6.0\chat.runtimeconfig.json
+C:\Users\TGSUser183\All Internship Data\asp.net\chat\chat\bin\Debug\net6.0\chat.dll
+C:\Users\TGSUser183\All Internship Data\asp.net\chat\chat\bin\Debug\net6.0\chat.pdb
+C:\Users\TGSUser183\All Internship Data\asp.net\chat\chat\obj\Debug\net6.0\chat.csproj.AssemblyReference.cache
+C:\Users\TGSUser183\All Internship Data\asp.net\chat\chat\obj\Debug\net6.0\chat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TGSUser183\All Internship Data\asp.net\chat\chat\obj\Debug\net6.0\chat.AssemblyInfoInputs.cache
+C:\Users\TGSUser183\All Internship Data\asp.net\chat\chat\obj\Debug\net6.0\chat.AssemblyInfo.cs
+C:\Users\TGSUser183\All Internship Data\asp.net\chat\chat\obj\Debug\net6.0\chat.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser183\All Internship Data\asp.net\chat\chat\obj\Debug\net6.0\chat.dll
+C:\Users\TGSUser183\All Internship Data\asp.net\chat\chat\obj\Debug\net6.0\refint\chat.dll
+C:\Users\TGSUser183\All Internship Data\asp.net\chat\chat\obj\Debug\net6.0\chat.pdb
+C:\Users\TGSUser183\All Internship Data\asp.net\chat\chat\obj\Debug\net6.0\chat.genruntimeconfig.cache
+C:\Users\TGSUser183\All Internship Data\asp.net\chat\chat\obj\Debug\net6.0\ref\chat.dll

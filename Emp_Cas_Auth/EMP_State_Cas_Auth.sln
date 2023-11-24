@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EMP_State_Cas_Auth", "WebApplication1\EMP_State_Cas_Auth.csproj", "{CD406FFC-D491-4C62-9150-FE65151BABF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{263E1C51-46BB-4016-A4DE-059F64F9F003}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD406FFC-D491-4C62-9150-FE65151BABF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD406FFC-D491-4C62-9150-FE65151BABF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD406FFC-D491-4C62-9150-FE65151BABF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD406FFC-D491-4C62-9150-FE65151BABF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8C43469-20E1-457A-832D-61D212F28977}
+	EndGlobalSection
+EndGlobal

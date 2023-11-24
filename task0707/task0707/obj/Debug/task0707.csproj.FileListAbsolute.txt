@@ -1,0 +1,8 @@
+C:\Users\TGSUser183\source\repos\task0707\task0707\bin\Debug\task0707.exe.config
+C:\Users\TGSUser183\source\repos\task0707\task0707\bin\Debug\task0707.exe
+C:\Users\TGSUser183\source\repos\task0707\task0707\bin\Debug\task0707.pdb
+C:\Users\TGSUser183\source\repos\task0707\task0707\obj\Debug\task0707.csproj.AssemblyReference.cache
+C:\Users\TGSUser183\source\repos\task0707\task0707\obj\Debug\task0707.csproj.SuggestedBindingRedirects.cache
+C:\Users\TGSUser183\source\repos\task0707\task0707\obj\Debug\task0707.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser183\source\repos\task0707\task0707\obj\Debug\task0707.exe
+C:\Users\TGSUser183\source\repos\task0707\task0707\obj\Debug\task0707.pdb
