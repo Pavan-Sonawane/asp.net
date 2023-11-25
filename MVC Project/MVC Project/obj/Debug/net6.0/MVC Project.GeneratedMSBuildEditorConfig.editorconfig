@@ -16,6 +16,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\TGSUser183\All Internship Data\asp.net\MVC Project\MVC Project
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/TGSUser183/All Internship Data/asp.net/MVC Project/MVC Project/Views/books/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcYm9va3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TGSUser183/All Internship Data/asp.net/MVC Project/MVC Project/Views/books/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcYm9va3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TGSUser183/All Internship Data/asp.net/MVC Project/MVC Project/Views/books/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcYm9va3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TGSUser183/All Internship Data/asp.net/MVC Project/MVC Project/Views/books/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcYm9va3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TGSUser183/All Internship Data/asp.net/MVC Project/MVC Project/Views/books/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcYm9va3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/TGSUser183/All Internship Data/asp.net/MVC Project/MVC Project/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

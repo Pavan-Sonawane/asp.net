@@ -1,8 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
+using MVC_Project.Models.Db;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddDbContext<MainDbContext>(
+    options => options.UseSqlServer(builder.Configuration.GetConnectionString("DemoSupplierItem"))
+);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -22,6 +28,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=books}/{action=Index}/{id?}");
 
 app.Run();
