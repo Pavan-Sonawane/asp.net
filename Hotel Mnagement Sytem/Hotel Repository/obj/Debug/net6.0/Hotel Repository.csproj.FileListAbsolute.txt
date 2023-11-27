@@ -1,0 +1,17 @@
+C:\Users\TGSUser183\All Internship Data\asp.net\Hotel Mnagement Sytem\Hotel Repository\bin\Debug\net6.0\Hotel Repository.deps.json
+C:\Users\TGSUser183\All Internship Data\asp.net\Hotel Mnagement Sytem\Hotel Repository\bin\Debug\net6.0\Hotel Repository.runtimeconfig.json
+C:\Users\TGSUser183\All Internship Data\asp.net\Hotel Mnagement Sytem\Hotel Repository\bin\Debug\net6.0\Hotel Repository.dll
+C:\Users\TGSUser183\All Internship Data\asp.net\Hotel Mnagement Sytem\Hotel Repository\bin\Debug\net6.0\Hotel Repository.pdb
+C:\Users\TGSUser183\All Internship Data\asp.net\Hotel Mnagement Sytem\Hotel Repository\bin\Debug\net6.0\Hotel Domain.dll
+C:\Users\TGSUser183\All Internship Data\asp.net\Hotel Mnagement Sytem\Hotel Repository\bin\Debug\net6.0\Hotel Domain.pdb
+C:\Users\TGSUser183\All Internship Data\asp.net\Hotel Mnagement Sytem\Hotel Repository\obj\Debug\net6.0\Hotel Repository.csproj.AssemblyReference.cache
+C:\Users\TGSUser183\All Internship Data\asp.net\Hotel Mnagement Sytem\Hotel Repository\obj\Debug\net6.0\Hotel Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TGSUser183\All Internship Data\asp.net\Hotel Mnagement Sytem\Hotel Repository\obj\Debug\net6.0\Hotel Repository.AssemblyInfoInputs.cache
+C:\Users\TGSUser183\All Internship Data\asp.net\Hotel Mnagement Sytem\Hotel Repository\obj\Debug\net6.0\Hotel Repository.AssemblyInfo.cs
+C:\Users\TGSUser183\All Internship Data\asp.net\Hotel Mnagement Sytem\Hotel Repository\obj\Debug\net6.0\Hotel Repository.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser183\All Internship Data\asp.net\Hotel Mnagement Sytem\Hotel Repository\obj\Debug\net6.0\Hotel Repository.csproj.CopyComplete
+C:\Users\TGSUser183\All Internship Data\asp.net\Hotel Mnagement Sytem\Hotel Repository\obj\Debug\net6.0\Hotel Repository.dll
+C:\Users\TGSUser183\All Internship Data\asp.net\Hotel Mnagement Sytem\Hotel Repository\obj\Debug\net6.0\refint\Hotel Repository.dll
+C:\Users\TGSUser183\All Internship Data\asp.net\Hotel Mnagement Sytem\Hotel Repository\obj\Debug\net6.0\Hotel Repository.pdb
+C:\Users\TGSUser183\All Internship Data\asp.net\Hotel Mnagement Sytem\Hotel Repository\obj\Debug\net6.0\Hotel Repository.genruntimeconfig.cache
+C:\Users\TGSUser183\All Internship Data\asp.net\Hotel Mnagement Sytem\Hotel Repository\obj\Debug\net6.0\ref\Hotel Repository.dll

@@ -1,0 +1,14 @@
+C:\Users\TGSUser183\All Internship Data\asp.net\Hotel Mnagement Sytem\Hotel Domain\bin\Debug\net6.0\Hotel Domain.deps.json
+C:\Users\TGSUser183\All Internship Data\asp.net\Hotel Mnagement Sytem\Hotel Domain\bin\Debug\net6.0\Hotel Domain.runtimeconfig.json
+C:\Users\TGSUser183\All Internship Data\asp.net\Hotel Mnagement Sytem\Hotel Domain\bin\Debug\net6.0\Hotel Domain.dll
+C:\Users\TGSUser183\All Internship Data\asp.net\Hotel Mnagement Sytem\Hotel Domain\bin\Debug\net6.0\Hotel Domain.pdb
+C:\Users\TGSUser183\All Internship Data\asp.net\Hotel Mnagement Sytem\Hotel Domain\obj\Debug\net6.0\Hotel Domain.csproj.AssemblyReference.cache
+C:\Users\TGSUser183\All Internship Data\asp.net\Hotel Mnagement Sytem\Hotel Domain\obj\Debug\net6.0\Hotel Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TGSUser183\All Internship Data\asp.net\Hotel Mnagement Sytem\Hotel Domain\obj\Debug\net6.0\Hotel Domain.AssemblyInfoInputs.cache
+C:\Users\TGSUser183\All Internship Data\asp.net\Hotel Mnagement Sytem\Hotel Domain\obj\Debug\net6.0\Hotel Domain.AssemblyInfo.cs
+C:\Users\TGSUser183\All Internship Data\asp.net\Hotel Mnagement Sytem\Hotel Domain\obj\Debug\net6.0\Hotel Domain.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser183\All Internship Data\asp.net\Hotel Mnagement Sytem\Hotel Domain\obj\Debug\net6.0\Hotel Domain.dll
+C:\Users\TGSUser183\All Internship Data\asp.net\Hotel Mnagement Sytem\Hotel Domain\obj\Debug\net6.0\refint\Hotel Domain.dll
+C:\Users\TGSUser183\All Internship Data\asp.net\Hotel Mnagement Sytem\Hotel Domain\obj\Debug\net6.0\Hotel Domain.pdb
+C:\Users\TGSUser183\All Internship Data\asp.net\Hotel Mnagement Sytem\Hotel Domain\obj\Debug\net6.0\Hotel Domain.genruntimeconfig.cache
+C:\Users\TGSUser183\All Internship Data\asp.net\Hotel Mnagement Sytem\Hotel Domain\obj\Debug\net6.0\ref\Hotel Domain.dll
