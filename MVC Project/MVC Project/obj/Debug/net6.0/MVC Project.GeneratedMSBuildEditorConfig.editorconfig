@@ -16,38 +16,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\TGSUser183\All Internship Data\asp.net\MVC Project\MVC Project
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/TGSUser183/All Internship Data/asp.net/MVC Project/MVC Project/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/TGSUser183/All Internship Data/asp.net/MVC Project/MVC Project/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/TGSUser183/All Internship Data/asp.net/MVC Project/MVC Project/Areas/Identity/Pages/Account/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/TGSUser183/All Internship Data/asp.net/MVC Project/MVC Project/Areas/Identity/Pages/Account/Logout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/TGSUser183/All Internship Data/asp.net/MVC Project/MVC Project/Areas/Identity/Pages/Account/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/TGSUser183/All Internship Data/asp.net/MVC Project/MVC Project/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/TGSUser183/All Internship Data/asp.net/MVC Project/MVC Project/Areas/Identity/Pages/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/TGSUser183/All Internship Data/asp.net/MVC Project/MVC Project/Areas/Identity/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/TGSUser183/All Internship Data/asp.net/MVC Project/MVC Project/Views/books/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcYm9va3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
