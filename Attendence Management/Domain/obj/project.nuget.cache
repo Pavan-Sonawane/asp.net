@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/J9eCpdaley30l4IN8pST016V9QCFrMVBMEiv6BinUgmcJ+mHbypMBANtplVHBF+N9S8kfAXeug+mibdWjZrnw==",
+  "dgSpecHash": "UpCPGLgRMUvjK/3JLxYI3rominoLTzMIE5/8qDT9zWnBFsLY0ocJG55PFoGPS1FTFKE1mGd/DJgwl2r0cwZiUw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pavan\\Source\\Repos\\asp.net\\Attendence Management\\Repository\\Repository.csproj",
+  "projectFilePath": "C:\\Users\\pavan\\Source\\Repos\\asp.net\\Attendence Management\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pavan\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\pavan\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

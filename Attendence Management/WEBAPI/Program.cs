@@ -4,6 +4,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Repository.Context;
 using Repository.Repository;
+using Repository.Services.CustomService.AttendenceService;
 using Repository.Services.CustomService.UserTypeService;
 using Repository.Services.General_Service;
 using System.Text;
@@ -55,6 +56,7 @@ builder.Services.AddSwaggerGen(c =>
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddScoped<IUserTypeService, UserTypeService>();
+builder.Services.AddScoped<IAttendanceService, AttendanceService>();
 #endregion
 
 
