@@ -70,46 +70,46 @@ builder.Services.AddSwaggerGen(c =>
 });
 #endregion
 
-#region Authentication and JWT Configuration
-builder.Services.AddAuthentication(x =>
-{
-    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-})
-.AddJwtBearer(options =>
-{
-    options.TokenValidationParameters = new TokenValidationParameters
+    #region Authentication and JWT Configuration
+    builder.Services.AddAuthentication(x =>
     {
-        ValidateIssuer = true,
-        ValidateAudience = true,
-        ValidateLifetime = true,
-        ValidateIssuerSigningKey = true,
-        ValidIssuer = builder.Configuration["JWT:Issuer"],
-        ValidAudience = builder.Configuration["Jwt:Issuer"],
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
-    };
-    options.Events = new JwtBearerEvents
+        x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+        x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+    })
+    .AddJwtBearer(options =>
     {
-        OnChallenge = async context =>
+        options.TokenValidationParameters = new TokenValidationParameters
         {
-            // Call this to skip the default logic and avoid using the default response
-            context.HandleResponse();
-            // Write to the response in any way you wish
-            context.Response.StatusCode = 401;
-            // context.Response.Headers.Append("my-custom-header", "custom-value");
-
-            Response<String> response = new()
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = builder.Configuration["JWT:Issuer"],
+            ValidAudience = builder.Configuration["Jwt:Issuer"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+        };
+        options.Events = new JwtBearerEvents
+        {
+            OnChallenge = async context =>
             {
-                Message = "You are not authorized!",
-                Status = (int)HttpStatusCode.Unauthorized
-            };
+                // Call this to skip the default logic and avoid using the default response
+                context.HandleResponse();
+                // Write to the response in any way you wish
+                context.Response.StatusCode = 401;
+                // context.Response.Headers.Append("my-custom-header", "custom-value");
 
-            await context.Response.WriteAsJsonAsync(response);
-        }
-    };
-});
+                Response<String> response = new()
+                {
+                    Message = "You are not authorized!",
+                    Status = (int)HttpStatusCode.Unauthorized
+                };
 
-#endregion
+                await context.Response.WriteAsJsonAsync(response);
+            }
+        };
+    });
+
+    #endregion
 
 #region Dependency Injections
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));

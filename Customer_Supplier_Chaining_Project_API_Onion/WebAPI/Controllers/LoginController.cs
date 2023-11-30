@@ -15,7 +15,7 @@ namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class LoginController : ControllerBase
+    public class LoginController : ControllerBase       
     {
         #region Private Variables and Constructor
         private readonly ILogger _logger;
