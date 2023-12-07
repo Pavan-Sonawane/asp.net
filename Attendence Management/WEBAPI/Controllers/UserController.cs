@@ -105,35 +105,28 @@ namespace WEBAPI.Controllers
         {
             try
             {
-                // Define a dictionary to map user type names to UserTypeID
                 var userTypeMapping = new Dictionary<string, int>
         {
-            { "hr", 1 },
-            { "employee", 2 }
-            // Add more mappings as needed
+            { "hr", 2 },
+            { "employee", 1 }
         };
 
-                // Convert user input to lowercase
                 string userTypeLower = userInsertModel.UserTypeName.ToLower();
 
-                // Log the user type name to check if it is correct
                 Console.WriteLine($"UserTypeName: {userInsertModel.UserTypeName}");
 
-                // Check if the user type exists in the mapping
                 if (!userTypeMapping.TryGetValue(userTypeLower, out int userTypeId))
                 {
-                    // Handle the case where the user type does not exist in the mapping
                     ModelState.AddModelError(nameof(userInsertModel.UserTypeName), "Invalid User Type Name");
                     return BadRequest(ModelState);
                 }
 
-                // Convert UserInsertModel to User
                 var newUser = new User
                 {
                     Username = userInsertModel.Username,
                     Email = userInsertModel.Email,
                     Password = userInsertModel.Password,
-                    UserTypeID = userTypeId // Set the user type ID
+                    UserTypeID = userTypeId 
                 };
 
                 await _userRepository.Insert(newUser);
@@ -142,7 +135,6 @@ namespace WEBAPI.Controllers
             }
             catch (Exception ex)
             {
-                // Log or handle the exception
                 ModelState.AddModelError(string.Empty, $"An error occurred while creating the user: {ex.Message}");
                 return BadRequest(ModelState);
             }
@@ -152,7 +144,6 @@ namespace WEBAPI.Controllers
 
 
 
-        // DELETE: api/Users/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteUser(int id)
         {

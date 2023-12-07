@@ -20,5 +20,15 @@ namespace Domain.ViewModels
        
         public List<UserViewModel> Users { get; set; }
     }
+    public class AttendanceInsertViewModel
+    {
+        public int AttendanceID { get; set; }
+        public int UserID { get; set; }
+        public double ActualHours { get; set; }
+        public double ProductiveHours { get; set; }
+
+
+      
+    }
 
 }
