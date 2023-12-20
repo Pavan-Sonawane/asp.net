@@ -11,7 +11,7 @@ namespace Hotel_Domain.Models
     {
         public int ReservationId { get; set; } 
         public int GuestId { get; set; } 
-        public int RoomNumber { get; set; }
+        public string RoomType { get; set; }
         [DataType(DataType.DateTime)]
         public DateTime CheckInDate { get; set; }
         [DataType(DataType.DateTime)]
@@ -19,7 +19,7 @@ namespace Hotel_Domain.Models
         [DataType(DataType.DateTime)]
         public DateTime ReservationDate { get; set; }
         public Guest Guest { get; set; }
-        public Room Room { get; set; }
+     
         public Invoice Invoice { get; set; }
     }
 }

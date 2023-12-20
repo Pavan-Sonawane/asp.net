@@ -14,7 +14,7 @@ namespace Hotel_Repository.Context
         {
         }
         public DbSet<Guest> Guests { get; set; }
-        public DbSet<Room> Rooms { get; set; }
+       
         public DbSet<Reservation> Reservations { get; set; }
         public DbSet<Invoice> Invoices { get; set; }
 
@@ -27,11 +27,7 @@ namespace Hotel_Repository.Context
                 .OnDelete(DeleteBehavior.Cascade); 
 
           
-            modelBuilder.Entity<Room>()
-                .HasMany(r => r.Reservations)
-                .WithOne(res => res.Room)
-                .HasForeignKey(res => res.RoomNumber)
-                .OnDelete(DeleteBehavior.Cascade);
+          
 
             modelBuilder.Entity<Reservation>()
                 .HasOne(res => res.Invoice)

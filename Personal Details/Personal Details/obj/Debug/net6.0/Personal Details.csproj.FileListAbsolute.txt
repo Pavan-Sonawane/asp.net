@@ -1,0 +1,31 @@
+C:\Users\TGSUser183\All Internship Data\asp.net\Personal Details\Personal Details\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\TGSUser183\All Internship Data\asp.net\Personal Details\Personal Details\bin\Debug\net6.0\appsettings.json
+C:\Users\TGSUser183\All Internship Data\asp.net\Personal Details\Personal Details\bin\Debug\net6.0\Personal Details.staticwebassets.runtime.json
+C:\Users\TGSUser183\All Internship Data\asp.net\Personal Details\Personal Details\bin\Debug\net6.0\Personal Details.exe
+C:\Users\TGSUser183\All Internship Data\asp.net\Personal Details\Personal Details\bin\Debug\net6.0\Personal Details.deps.json
+C:\Users\TGSUser183\All Internship Data\asp.net\Personal Details\Personal Details\bin\Debug\net6.0\Personal Details.runtimeconfig.json
+C:\Users\TGSUser183\All Internship Data\asp.net\Personal Details\Personal Details\bin\Debug\net6.0\Personal Details.dll
+C:\Users\TGSUser183\All Internship Data\asp.net\Personal Details\Personal Details\bin\Debug\net6.0\Personal Details.pdb
+C:\Users\TGSUser183\All Internship Data\asp.net\Personal Details\Personal Details\obj\Debug\net6.0\Personal Details.csproj.AssemblyReference.cache
+C:\Users\TGSUser183\All Internship Data\asp.net\Personal Details\Personal Details\obj\Debug\net6.0\Personal Details.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TGSUser183\All Internship Data\asp.net\Personal Details\Personal Details\obj\Debug\net6.0\Personal Details.AssemblyInfoInputs.cache
+C:\Users\TGSUser183\All Internship Data\asp.net\Personal Details\Personal Details\obj\Debug\net6.0\Personal Details.AssemblyInfo.cs
+C:\Users\TGSUser183\All Internship Data\asp.net\Personal Details\Personal Details\obj\Debug\net6.0\Personal Details.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser183\All Internship Data\asp.net\Personal Details\Personal Details\obj\Debug\net6.0\Personal Details.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\TGSUser183\All Internship Data\asp.net\Personal Details\Personal Details\obj\Debug\net6.0\Personal Details.RazorAssemblyInfo.cache
+C:\Users\TGSUser183\All Internship Data\asp.net\Personal Details\Personal Details\obj\Debug\net6.0\Personal Details.RazorAssemblyInfo.cs
+C:\Users\TGSUser183\All Internship Data\asp.net\Personal Details\Personal Details\obj\Debug\net6.0\staticwebassets\msbuild.Personal Details.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\TGSUser183\All Internship Data\asp.net\Personal Details\Personal Details\obj\Debug\net6.0\staticwebassets\msbuild.build.Personal Details.props
+C:\Users\TGSUser183\All Internship Data\asp.net\Personal Details\Personal Details\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Personal Details.props
+C:\Users\TGSUser183\All Internship Data\asp.net\Personal Details\Personal Details\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Personal Details.props
+C:\Users\TGSUser183\All Internship Data\asp.net\Personal Details\Personal Details\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\TGSUser183\All Internship Data\asp.net\Personal Details\Personal Details\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\TGSUser183\All Internship Data\asp.net\Personal Details\Personal Details\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\TGSUser183\All Internship Data\asp.net\Personal Details\Personal Details\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\TGSUser183\All Internship Data\asp.net\Personal Details\Personal Details\obj\Debug\net6.0\scopedcss\bundle\Personal Details.styles.css
+C:\Users\TGSUser183\All Internship Data\asp.net\Personal Details\Personal Details\obj\Debug\net6.0\scopedcss\projectbundle\Personal Details.bundle.scp.css
+C:\Users\TGSUser183\All Internship Data\asp.net\Personal Details\Personal Details\obj\Debug\net6.0\Personal Details.dll
+C:\Users\TGSUser183\All Internship Data\asp.net\Personal Details\Personal Details\obj\Debug\net6.0\refint\Personal Details.dll
+C:\Users\TGSUser183\All Internship Data\asp.net\Personal Details\Personal Details\obj\Debug\net6.0\Personal Details.pdb
+C:\Users\TGSUser183\All Internship Data\asp.net\Personal Details\Personal Details\obj\Debug\net6.0\Personal Details.genruntimeconfig.cache
+C:\Users\TGSUser183\All Internship Data\asp.net\Personal Details\Personal Details\obj\Debug\net6.0\ref\Personal Details.dll

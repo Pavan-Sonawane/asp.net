@@ -45,14 +45,14 @@ namespace Hotel_Management.Controllers
             // Convert ReservationViewModel to Reservation entity
             var reservation = new Reservation
             {
-                // Map properties accordingly
+               
                 ReservationId=reservationViewModel.ReservationId,
                 GuestId = reservationViewModel.GuestId,
-                RoomNumber = reservationViewModel.RoomNumber,
+                RoomType = reservationViewModel.RoomType,
                 CheckInDate = reservationViewModel.CheckInDate,
                 CheckOutDate = reservationViewModel.CheckOutDate,
                 ReservationDate = reservationViewModel.ReservationDate,
-                // Map other properties as needed
+               
             };
 
             await _reservationService.AddReservationAsync(reservation);
@@ -69,15 +69,15 @@ namespace Hotel_Management.Controllers
                 return NotFound();
             }
 
-            // Map properties accordingly
+            
             existingReservation.ReservationId = reservationViewModel.ReservationId;
             existingReservation.GuestId = reservationViewModel.GuestId;
-            existingReservation.RoomNumber = reservationViewModel.RoomNumber;
+            existingReservation.RoomType = reservationViewModel.RoomType;
             existingReservation.CheckInDate = reservationViewModel.CheckInDate;
             existingReservation.CheckOutDate = reservationViewModel.CheckOutDate;
             existingReservation.ReservationDate = reservationViewModel.ReservationDate;
      
-            // Map other properties as needed
+          
 
             await _reservationService.UpdateReservationAsync(existingReservation);
             return NoContent();

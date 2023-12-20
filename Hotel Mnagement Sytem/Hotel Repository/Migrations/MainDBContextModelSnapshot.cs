@@ -103,39 +103,15 @@ namespace Hotel_Repository.Migrations
                     b.Property<DateTime>("ReservationDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("RoomNumber")
-                        .HasColumnType("int");
+                    b.Property<string>("RoomType")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ReservationId");
 
                     b.HasIndex("GuestId");
 
-                    b.HasIndex("RoomNumber");
-
                     b.ToTable("Reservations");
-                });
-
-            modelBuilder.Entity("Hotel_Domain.Models.Room", b =>
-                {
-                    b.Property<int>("RoomNumber")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RoomNumber"));
-
-                    b.Property<bool>("Availability")
-                        .HasColumnType("bit");
-
-                    b.Property<decimal>("RatePerNight")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<string>("RoomType")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("RoomNumber");
-
-                    b.ToTable("Rooms");
                 });
 
             modelBuilder.Entity("Hotel_Domain.Models.Invoice", b =>
@@ -157,15 +133,7 @@ namespace Hotel_Repository.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Hotel_Domain.Models.Room", "Room")
-                        .WithMany("Reservations")
-                        .HasForeignKey("RoomNumber")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("Guest");
-
-                    b.Navigation("Room");
                 });
 
             modelBuilder.Entity("Hotel_Domain.Models.Guest", b =>
@@ -177,11 +145,6 @@ namespace Hotel_Repository.Migrations
                 {
                     b.Navigation("Invoice")
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("Hotel_Domain.Models.Room", b =>
-                {
-                    b.Navigation("Reservations");
                 });
 #pragma warning restore 612, 618
         }

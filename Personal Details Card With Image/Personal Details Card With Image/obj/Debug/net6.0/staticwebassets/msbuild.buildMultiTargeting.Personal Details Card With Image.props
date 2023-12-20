@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Personal Details Card With Image.props" />
+</Project>

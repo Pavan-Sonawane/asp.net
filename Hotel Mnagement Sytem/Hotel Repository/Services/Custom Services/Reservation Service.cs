@@ -23,7 +23,7 @@ namespace Hotel_Repository.Services.Custom_Services
         {
             var reservations = await _context.Reservations
                 .Include(r => r.Guest)
-                .Include(r => r.Room)
+               
                 .Include(r => r.Invoice)
                 .ToListAsync();
 
@@ -31,12 +31,12 @@ namespace Hotel_Repository.Services.Custom_Services
             {
                 ReservationId = r.ReservationId,
                 GuestId = r.GuestId,
-                RoomNumber = r.RoomNumber,
+                RoomType = r.RoomType,
                 CheckInDate = r.CheckInDate,
                 CheckOutDate = r.CheckOutDate,
                 ReservationDate = r.ReservationDate,
                 Guest = MapGuestViewModel(r.Guest),
-                Room = MapRoomViewModel(r.Room),
+               
                 Invoice = MapInvoiceViewModel(r.Invoice)
             }).ToList();
         }
@@ -45,7 +45,7 @@ namespace Hotel_Repository.Services.Custom_Services
         {
             var reservation = await _context.Reservations
                 .Include(r => r.Guest)
-                .Include(r => r.Room)
+              
                 .Include(r => r.Invoice)
                 .FirstOrDefaultAsync(r => r.ReservationId == reservationId);
 
@@ -58,12 +58,12 @@ namespace Hotel_Repository.Services.Custom_Services
             {
                 ReservationId = reservation.ReservationId,
                 GuestId = reservation.GuestId,
-                RoomNumber = reservation.RoomNumber,
+                RoomType = reservation.RoomType,
                 CheckInDate = reservation.CheckInDate,
                 CheckOutDate = reservation.CheckOutDate,
                 ReservationDate = reservation.ReservationDate,
                 Guest = MapGuestViewModel(reservation.Guest),
-                Room = MapRoomViewModel(reservation.Room),
+            
                 Invoice = MapInvoiceViewModel(reservation.Invoice)
             };
         }
@@ -82,16 +82,7 @@ namespace Hotel_Repository.Services.Custom_Services
             } : null;
         }
 
-        private RoomViewModel MapRoomViewModel(Room room)
-        {
-            return room != null ? new RoomViewModel
-            {
-                RoomNumber = room.RoomNumber,
-                RoomType = room.RoomType,
-                RatePerNight = room.RatePerNight,
-                Availability = room.Availability
-            } : null;
-        }
+        
 
         private InvoiceViewModel MapInvoiceViewModel(Invoice invoice)
         {

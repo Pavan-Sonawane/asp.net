@@ -22,7 +22,7 @@ namespace Hotel_Repository.Services.Custom_Services
         {
             return await _context.Invoices
                 .Include(i => i.Reservation)
-                    .ThenInclude(r => r.Room)   // Include Room details
+                     
                 .Include(i => i.Reservation)
                     .ThenInclude(r => r.Guest)  // Include Guest details
                 .ToListAsync();
