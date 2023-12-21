@@ -15,7 +15,7 @@ namespace Domain.ViewModels
         public string ActGender { get; set; }
         public DateTime ActDob { get; set; }
 
-        public List<Movie_Cast> Movies { get; set; }
+      /*  public List<Movie_Cast> Movies { get; set; }*/
     }
     public class ActorInsertModel
     {

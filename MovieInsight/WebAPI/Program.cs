@@ -31,8 +31,9 @@ builder.Services.AddCors(options =>
 
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
-builder.Services.AddScoped<IActorService, ActorService>();
 builder.Services.AddScoped<IMovieService, MovieService>();
+
+builder.Services.AddScoped<IActorService, ActorService>();
 #endregion
 
 builder.Services.AddControllers();
