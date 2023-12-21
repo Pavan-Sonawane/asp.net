@@ -45,13 +45,13 @@ namespace Personal_Details_Card_With_Image.Controllers
             return CreatedAtAction(nameof(GetUserById), new { id = userDTO.Id }, userDTO);
         }
 
-        [HttpPut("{id}")]
+     /*   [HttpPut("{id}")]
         public async Task<IActionResult> UpdateUser(int id, [FromForm] UserDTO userDTO)
         {
             await _userRepository.UpdateUser(id, userDTO);
 
             return NoContent();
-        }
+        }*/
 
 
         [HttpDelete("{id}")]
