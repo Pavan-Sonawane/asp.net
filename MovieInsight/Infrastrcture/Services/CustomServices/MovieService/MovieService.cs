@@ -11,13 +11,16 @@ namespace Infrastrcture.Services.General_Services.MovieService
 {
     public class MovieService : IMovieService
     {
+        #region Constructor
         private readonly IRepository<Movie> _movieRepository;
 
         public MovieService(IRepository<Movie> movieRepository)
         {
             _movieRepository = movieRepository;
         }
+        #endregion
 
+        #region GetAll
         public async Task<IEnumerable<MovieViewModel>> GetAllAsync()
         {
             var movies = await _movieRepository.GetAllAsync();
@@ -30,10 +33,11 @@ namespace Infrastrcture.Services.General_Services.MovieService
                 MovLang = movie.MovLang,
                 MovDtRel = movie.MovDtRel,
                 MovRelCountry = movie.MovRelCountry,
-                // Add other mappings as needed
             });
         }
+        #endregion
 
+        #region Get BY ID
         public async Task<MovieViewModel> GetByIdAsync(int id)
         {
             var movie = await _movieRepository.GetByIdAsync(id);
@@ -48,7 +52,9 @@ namespace Infrastrcture.Services.General_Services.MovieService
                 MovRelCountry = movie.MovRelCountry,
             } : null;
         }
+        #endregion
 
+        #region  Post
         public async Task AddAsync(MovieInsertModel entity)
         {
             var movie = new Movie
@@ -63,7 +69,9 @@ namespace Infrastrcture.Services.General_Services.MovieService
 
             await _movieRepository.AddAsync(movie);
         }
+        #endregion
 
+        #region Update
         public async Task UpdateAsync(MovieInsertModel entity)
         {
             var movie = await _movieRepository.GetByIdAsync(entity.MovId);
@@ -75,15 +83,17 @@ namespace Infrastrcture.Services.General_Services.MovieService
                 movie.MovLang = entity.MovLang;
                 movie.MovDtRel = entity.MovDtRel;
                 movie.MovRelCountry = entity.MovRelCountry;
-                // Add other mappings as needed
 
                 await _movieRepository.UpdateAsync(movie);
             }
         }
+        #endregion
 
+        #region Delete
         public async Task DeleteAsync(int id)
         {
             await _movieRepository.DeleteAsync(id);
         }
+        #endregion
     }
 }

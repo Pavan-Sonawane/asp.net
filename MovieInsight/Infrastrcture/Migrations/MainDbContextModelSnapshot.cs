@@ -182,8 +182,8 @@ namespace Infrastrcture.Migrations
                     b.Property<int>("RevId")
                         .HasColumnType("int");
 
-                    b.Property<int>("NumOfRating")
-                        .HasColumnType("int");
+                    b.Property<float>("NumOfRating")
+                        .HasColumnType("real");
 
                     b.Property<int>("RevStars")
                         .HasColumnType("int");

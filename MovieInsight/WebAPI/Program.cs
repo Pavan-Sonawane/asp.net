@@ -2,13 +2,16 @@ using Domain.Models;
 using Domain.ViewModels;
 using Infrastrcture.Context;
 using Infrastrcture.Repository;
+using Infrastrcture.Services.CustomServices.GenereService;
+using Infrastrcture.Services.CustomServices.RatingServices;
+using Infrastrcture.Services.CustomServices.ReviewerService;
 using Infrastrcture.Services.General_Services;
+using Infrastrcture.Services.General_Services.DirectorService;
 using Infrastrcture.Services.General_Services.MovieService;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 #region   Database Connection
 
 builder.Services.AddDbContext<MainDbContext>(
@@ -28,12 +31,13 @@ builder.Services.AddCors(options =>
 #endregion
 
 #region  Dependency Injection
-
-
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddScoped<IMovieService, MovieService>();
-
+builder.Services.AddScoped<IDirectorService, DirectorService>();
 builder.Services.AddScoped<IActorService, ActorService>();
+builder.Services.AddScoped<IReviewerService,ReviewerService>();
+builder.Services.AddScoped<IRatingService,RatingService>();
+builder.Services.AddScoped<IGenere,GenereService>();
 #endregion
 
 builder.Services.AddControllers();
@@ -43,7 +47,6 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

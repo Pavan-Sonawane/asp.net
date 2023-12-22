@@ -13,7 +13,7 @@ namespace Infrastrcture.Context
         public MainDbContext(DbContextOptions options) : base(options)
         {
         }
-
+        #region Databases
         public DbSet<Actor> Actors { get; set; }
         public DbSet<Genres> Genres { get; set; }
         public DbSet<Directors> Directors { get; set; }
@@ -23,12 +23,12 @@ namespace Infrastrcture.Context
         public DbSet<Rating> Ratings { get; set; }
         public DbSet<Movie_Cast> MovieCast { get; set; }
         public DbSet<Reviewer> Reviewers { get; set; }
+        #endregion
 
-      
-
+        #region  Relations
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Configure relationships, indexes, and other constraints here
+          
 
             modelBuilder.Entity<Movie_Genres>()
                 .HasKey(mg => new { mg.MovId, mg.GenId });
@@ -82,5 +82,6 @@ namespace Infrastrcture.Context
                 .WithMany(m => m.Cast)
                 .HasForeignKey(mc => mc.MovId);
         }
+        #endregion 
     }
 }

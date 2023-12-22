@@ -11,12 +11,16 @@ namespace Infrastrcture.Services.General_Services
 {
     public class ActorService : IActorService
     {
+        #region Constructor
         private readonly IRepository<Actor> _actorRepository;
 
         public ActorService(IRepository<Actor> actorRepository)
         {
             _actorRepository = actorRepository;
         }
+        #endregion
+
+        #region getAll
 
         public async Task<IEnumerable<ActorViewModel>> GetAllAsync()
         {
@@ -31,7 +35,9 @@ namespace Infrastrcture.Services.General_Services
                
             });
         }
+        #endregion
 
+        #region  GetBy ID
         public async Task<ActorViewModel> GetByIdAsync(int id)
         {
             var actor = await _actorRepository.GetByIdAsync(id);
@@ -44,7 +50,9 @@ namespace Infrastrcture.Services.General_Services
                 ActDob = actor.ActDob,
             } : null;
         }
+        #endregion
 
+        #region Post
         public async Task AddAsync(ActorInsertModel entity)
         {
             var actor = new Actor
@@ -57,7 +65,9 @@ namespace Infrastrcture.Services.General_Services
 
             await _actorRepository.AddAsync(actor);
         }
+        #endregion
 
+        #region Update
         public async Task UpdateAsync(ActorInsertModel entity)
         {
             var actor = await _actorRepository.GetByIdAsync(entity.ActId);
@@ -71,10 +81,13 @@ namespace Infrastrcture.Services.General_Services
                 await _actorRepository.UpdateAsync(actor);
             }
         }
+        #endregion
 
+        #region Delete 
         public async Task DeleteAsync(int id)
         {
             await _actorRepository.DeleteAsync(id);
         }
+        #endregion
     }
 }
