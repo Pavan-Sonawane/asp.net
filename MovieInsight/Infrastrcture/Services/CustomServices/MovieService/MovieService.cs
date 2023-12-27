@@ -1,13 +1,9 @@
 ﻿using Domain.Models;
 using Domain.ViewModels;
 using Infrastrcture.Repository;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Infrastrcture.Services.General_Services.MovieService;
 
-namespace Infrastrcture.Services.General_Services.MovieService
+namespace Infrastrcture.Services.CustomServices.MovieService
 {
     public class MovieService : IMovieService
     {
@@ -23,7 +19,7 @@ namespace Infrastrcture.Services.General_Services.MovieService
         #region GetAll
         public async Task<IEnumerable<MovieViewModel>> GetAllAsync()
         {
-            var movies = await _movieRepository.GetAllAsync();
+            IEnumerable<Movie> movies = await _movieRepository.GetAllAsync();
             return movies.Select(movie => new MovieViewModel
             {
                 MovId = movie.MovId,
@@ -40,7 +36,7 @@ namespace Infrastrcture.Services.General_Services.MovieService
         #region Get BY ID
         public async Task<MovieViewModel> GetByIdAsync(int id)
         {
-            var movie = await _movieRepository.GetByIdAsync(id);
+            Movie movie = await _movieRepository.GetByIdAsync(id);
             return movie != null ? new MovieViewModel
             {
                 MovId = movie.MovId,
@@ -57,7 +53,7 @@ namespace Infrastrcture.Services.General_Services.MovieService
         #region  Post
         public async Task AddAsync(MovieInsertModel entity)
         {
-            var movie = new Movie
+            Movie movie = new()
             {
                 MovTitle = entity.MovTitle,
                 MovYear = entity.MovYear,
@@ -74,7 +70,7 @@ namespace Infrastrcture.Services.General_Services.MovieService
         #region Update
         public async Task UpdateAsync(MovieInsertModel entity)
         {
-            var movie = await _movieRepository.GetByIdAsync(entity.MovId);
+            Movie movie = await _movieRepository.GetByIdAsync(entity.MovId);
             if (movie != null)
             {
                 movie.MovTitle = entity.MovTitle;

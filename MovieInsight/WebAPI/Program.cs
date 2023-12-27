@@ -3,6 +3,10 @@ using Domain.ViewModels;
 using Infrastrcture.Context;
 using Infrastrcture.Repository;
 using Infrastrcture.Services.CustomServices.GenereService;
+using Infrastrcture.Services.CustomServices.MovieCastServices;
+using Infrastrcture.Services.CustomServices.MovieDirectionServices;
+using Infrastrcture.Services.CustomServices.MovieGenereServices;
+using Infrastrcture.Services.CustomServices.MovieService;
 using Infrastrcture.Services.CustomServices.RatingServices;
 using Infrastrcture.Services.CustomServices.ReviewerService;
 using Infrastrcture.Services.General_Services;
@@ -38,10 +42,16 @@ builder.Services.AddScoped<IActorService, ActorService>();
 builder.Services.AddScoped<IReviewerService,ReviewerService>();
 builder.Services.AddScoped<IRatingService,RatingService>();
 builder.Services.AddScoped<IGenere,GenereService>();
+builder.Services.AddScoped<IMovieGenere,MovieGenereService>();
+builder.Services.AddScoped<IMovieDirectionService, MovieDirectionService>();
+builder.Services.AddScoped<IMovieCastService, MovieCastService>();
 #endregion
 
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
+    }); builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 

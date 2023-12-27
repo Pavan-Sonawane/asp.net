@@ -1,6 +1,7 @@
 ﻿using Domain.Models;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,6 +16,8 @@ namespace Domain.ViewModels
         public float NumOfRating { get; set; }
         public Movie Movie { get; set; }
         public Reviewer Reviewer { get; set; } 
+        public string MovieName { get; set; }
+        public string ReviewerName { get; set; }
     }
     public class RatingInsertModel
     {

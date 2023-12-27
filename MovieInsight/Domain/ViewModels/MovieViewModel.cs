@@ -16,12 +16,13 @@ namespace Domain.ViewModels
         public string MovLang { get; set; }
         public DateTime MovDtRel { get; set; }
         public string MovRelCountry { get; set; }
-/*
+
         public List<Movie_Genres> Genres { get; set; }
         public List<Movie_Direction> Directors { get; set; }
         public List<Rating> Ratings { get; set; }
-        public List<Movie_Cast> Cast { get; set; }*/
+        public List<Movie_Cast> Cast { get; set; }
     }
+
     public class MovieInsertModel
     {
         public int MovId { get; set; }
@@ -31,7 +32,5 @@ namespace Domain.ViewModels
         public string MovLang { get; set; }
         public DateTime MovDtRel { get; set; }
         public string MovRelCountry { get; set; }
-
-       
     }
 }

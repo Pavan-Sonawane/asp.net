@@ -10,7 +10,7 @@ namespace Infrastrcture.Services.CustomServices.RatingServices
     public interface IRatingService
     {
         Task<IEnumerable<RatingViewModel>> GetAllAsync();
-        // Add other method declarations if needed
+       
 
         Task<float> AddStarsAsync(RatingInsertModel model);
     }

@@ -26,7 +26,6 @@ namespace WebAPI.Controllers
         [HttpPost("addStars")]
         public async Task<IActionResult> AddStars([FromBody] RatingInsertModel model)
         {
-            // Ensure that RevId is provided in the model
             if (model.RevId == 0)
             {
                 return BadRequest("RevId is required.");

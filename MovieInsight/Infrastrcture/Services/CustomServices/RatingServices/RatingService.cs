@@ -1,30 +1,46 @@
 ﻿using Domain.Models;
 using Domain.ViewModels;
+using Infrastrcture.Context;
 using Infrastrcture.Repository;
 using Infrastrcture.Services.General_Services.MovieService;
+using Microsoft.EntityFrameworkCore;
 
 namespace Infrastrcture.Services.CustomServices.RatingServices
 {
     public class RatingService : IRatingService
     {
         private readonly IRepository<Rating> _repository;
+        private readonly MainDbContext _dbContext;
 
-        public RatingService(IRepository<Rating> repository)
+        public RatingService(IRepository<Rating> repository, MainDbContext Context)
         {
             _repository = repository;
+            _dbContext = Context;
         }
 
         public async Task<IEnumerable<RatingViewModel>> GetAllAsync()
         {
-            var ratings = await _repository.GetAllAsync();
+            var ratings = await _dbContext.Ratings.ToListAsync();
+
+            foreach (var rating in ratings)
+            {
+                _dbContext.Entry(rating)
+                    .Reference(r => r.Movie)
+                .Load();
+
+                _dbContext.Entry(rating)
+                    .Reference(r => r.Reviewer)
+                    .Load();
+            }
+
             return ratings.Select(rating => new RatingViewModel
             {
                 MovId = rating.MovId,
                 RevId = rating.RevId,
                 RevStars = rating.RevStars,
                 NumOfRating = rating.NumOfRating,
-                Movie = rating.Movie,
-                Reviewer = rating.Reviewer,
+                MovieName = rating.Movie != null ? rating.Movie.MovTitle : null,
+                ReviewerName = rating.Reviewer != null ? rating.Reviewer.RevName : null,
             });
         }
 
