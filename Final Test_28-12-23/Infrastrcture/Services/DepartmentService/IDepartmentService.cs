@@ -14,7 +14,7 @@ namespace Infrastrcture.Services.DepartmentService
         Task<IEnumerable<DepartmentViewModel>> GetAllDepartments();
         Task<DepartmentViewModel> GetDepartmentById(int id);
         Task AddDepartment(DepartmentInsertModel departmentModel);
-        Task UpdateDepartment(DepartmentUpdateModel departmentModel);
+        Task UpdateDepartment(int id,DepartmentUpdateModel departmentModel);
         Task DeleteDepartment(int id);
     }
 }

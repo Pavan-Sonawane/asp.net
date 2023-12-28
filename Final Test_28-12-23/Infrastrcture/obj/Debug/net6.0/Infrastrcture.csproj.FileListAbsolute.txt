@@ -15,3 +15,21 @@ C:\Users\TGSUser183\All Internship Data\asp.net\Final Test_28-12-23\Infrastrctur
 C:\Users\TGSUser183\All Internship Data\asp.net\Final Test_28-12-23\Infrastrcture\obj\Debug\net6.0\Infrastrcture.pdb
 C:\Users\TGSUser183\All Internship Data\asp.net\Final Test_28-12-23\Infrastrcture\obj\Debug\net6.0\Infrastrcture.genruntimeconfig.cache
 C:\Users\TGSUser183\All Internship Data\asp.net\Final Test_28-12-23\Infrastrcture\obj\Debug\net6.0\ref\Infrastrcture.dll
+C:\Users\pavan\Desktop\asp.net clone\Final Test_28-12-23\Infrastrcture\bin\Debug\net6.0\Infrastrcture.deps.json
+C:\Users\pavan\Desktop\asp.net clone\Final Test_28-12-23\Infrastrcture\bin\Debug\net6.0\Infrastrcture.runtimeconfig.json
+C:\Users\pavan\Desktop\asp.net clone\Final Test_28-12-23\Infrastrcture\bin\Debug\net6.0\Infrastrcture.dll
+C:\Users\pavan\Desktop\asp.net clone\Final Test_28-12-23\Infrastrcture\bin\Debug\net6.0\Infrastrcture.pdb
+C:\Users\pavan\Desktop\asp.net clone\Final Test_28-12-23\Infrastrcture\bin\Debug\net6.0\Domain.dll
+C:\Users\pavan\Desktop\asp.net clone\Final Test_28-12-23\Infrastrcture\bin\Debug\net6.0\Domain.pdb
+C:\Users\pavan\Desktop\asp.net clone\Final Test_28-12-23\Infrastrcture\obj\Debug\net6.0\Infrastrcture.csproj.AssemblyReference.cache
+C:\Users\pavan\Desktop\asp.net clone\Final Test_28-12-23\Infrastrcture\obj\Debug\net6.0\Infrastrcture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pavan\Desktop\asp.net clone\Final Test_28-12-23\Infrastrcture\obj\Debug\net6.0\Infrastrcture.AssemblyInfoInputs.cache
+C:\Users\pavan\Desktop\asp.net clone\Final Test_28-12-23\Infrastrcture\obj\Debug\net6.0\Infrastrcture.AssemblyInfo.cs
+C:\Users\pavan\Desktop\asp.net clone\Final Test_28-12-23\Infrastrcture\obj\Debug\net6.0\Infrastrcture.csproj.CoreCompileInputs.cache
+C:\Users\pavan\Desktop\asp.net clone\Final Test_28-12-23\Infrastrcture\obj\Debug\net6.0\Infrastrcture.sourcelink.json
+C:\Users\pavan\Desktop\asp.net clone\Final Test_28-12-23\Infrastrcture\obj\Debug\net6.0\Infrastrcture.csproj.CopyComplete
+C:\Users\pavan\Desktop\asp.net clone\Final Test_28-12-23\Infrastrcture\obj\Debug\net6.0\Infrastrcture.dll
+C:\Users\pavan\Desktop\asp.net clone\Final Test_28-12-23\Infrastrcture\obj\Debug\net6.0\refint\Infrastrcture.dll
+C:\Users\pavan\Desktop\asp.net clone\Final Test_28-12-23\Infrastrcture\obj\Debug\net6.0\Infrastrcture.pdb
+C:\Users\pavan\Desktop\asp.net clone\Final Test_28-12-23\Infrastrcture\obj\Debug\net6.0\Infrastrcture.genruntimeconfig.cache
+C:\Users\pavan\Desktop\asp.net clone\Final Test_28-12-23\Infrastrcture\obj\Debug\net6.0\ref\Infrastrcture.dll

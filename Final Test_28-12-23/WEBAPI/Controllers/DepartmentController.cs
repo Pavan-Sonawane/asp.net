@@ -8,7 +8,6 @@ namespace WEBAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
     public class DepartmentController : ControllerBase
     {
         private readonly IDepartmentService _departmentService;
@@ -50,7 +49,7 @@ namespace WEBAPI.Controllers
         {
            
 
-            await _departmentService.UpdateDepartment(departmentModel);
+            await _departmentService.UpdateDepartment(id,departmentModel);
             return Ok();
         }
 

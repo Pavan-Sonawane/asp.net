@@ -55,8 +55,7 @@ namespace Domain.ViewModels
 
         public string Name { get; set; }
         public string Phone { get; set; }
-        public int DeptId { get; set; }
-        public DateTime DOB { get; set; }
+       
         
 
 

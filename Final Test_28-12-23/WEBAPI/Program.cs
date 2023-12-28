@@ -175,7 +175,7 @@ builder.Services.AddScoped<IEmployeeService, EmployeeService>();
 builder.Services.AddScoped<ISalaryService, SalaryService>();
 #endregion
 
-builder.Services.AddIdentity<Employee, IdentityRole<int>>(options =>
+builder.Services.AddIdentity<User, IdentityRole<int>>(options =>
 {
     options.Password.RequireDigit = true;
     options.Password.RequireLowercase = true;
@@ -203,6 +203,7 @@ app.UseCors(options => options.WithOrigins("http://localhost:3000").AllowAnyHead
 
 app.UseAuthentication();
 app.UseAuthorization();
+app.UseCors(options => options.WithOrigins("http://localhost:3000").AllowAnyHeader().AllowAnyMethod());
 
 app.MapControllers();
 app.MapControllerRoute(

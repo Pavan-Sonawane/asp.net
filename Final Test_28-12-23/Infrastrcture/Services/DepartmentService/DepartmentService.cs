@@ -50,9 +50,9 @@ namespace Infrastrcture.Services.DepartmentService
             await _repository.AddAsync(department);
         }
 
-        public async Task UpdateDepartment(DepartmentUpdateModel departmentModel)
+        public async Task UpdateDepartment(int id, DepartmentUpdateModel departmentModel)
         {
-            var department = await _repository.GetByIdAsync(departmentModel.Id);
+            var department = await _repository.GetByIdAsync(id);
 
             if (department != null)
             {

@@ -1,4 +1,4 @@
-﻿using Domain.Models;
+﻿/*using Domain.Models;
 using Domain.ViewModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -11,10 +11,10 @@ namespace WEBAPI.Controllers
     [Route("api/[controller]")]
     public class LoginController : ControllerBase
     {
-        private readonly SignInManager<Employee> _signInManager;
+        private readonly SignInManager<User> _signInManager;
         private readonly ILogger<LoginController> _logger;
 
-        public LoginController(SignInManager<Employee> signInManager, ILogger<LoginController> logger)
+        public LoginController(SignInManager<User> signInManager, ILogger<LoginController> logger)
         {
             _signInManager = signInManager;
             _logger = logger;
@@ -53,4 +53,4 @@ namespace WEBAPI.Controllers
 
     }
 
-}
+}*/

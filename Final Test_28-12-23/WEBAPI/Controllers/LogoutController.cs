@@ -1,4 +1,4 @@
-﻿using Domain.Models;
+﻿/*using Domain.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -10,9 +10,9 @@ namespace WEBAPI.Controllers
     [ApiController]
     public class LogoutController : ControllerBase
     {
-        private readonly SignInManager<Employee> _signInManager;
+        private readonly SignInManager<User> _signInManager;
 
-        public LogoutController(SignInManager<Employee> signInManager)
+        public LogoutController(SignInManager<User> signInManager)
         {
             _signInManager = signInManager;
         }
@@ -27,3 +27,4 @@ namespace WEBAPI.Controllers
         }
     }
 }
+*/

@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace Infrastrcture.Database
 {
-    public class MainDbconetxt : IdentityDbContext<Employee, IdentityRole<int>, int>
+    public class MainDbconetxt : IdentityDbContext<User, IdentityRole<int>, int>
     {
         public MainDbconetxt(DbContextOptions<MainDbconetxt> options) : base(options)
         {
@@ -15,6 +15,7 @@ namespace Infrastrcture.Database
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Department> Departments { get; set; }
         public DbSet<Salary> Salaries { get; set; }
+       
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Employee>()
